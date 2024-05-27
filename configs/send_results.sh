@@ -4,8 +4,8 @@ folder=$1
 job_name=$2
 folder_lower=$(echo "${folder}" | tr '[:upper:]' '[:lower:]')
 
-ALLURE_RESULTS_DIRECTORY="sap-crm-tests/PlaywrightFramework/projects/${folder}/allure-results"
-ALLURE_SERVER="http://testmcil01.sis.ad.bia.itau:5050"
+ALLURE_RESULTS_DIRECTORY="tests/PlaywrightFramework/projects/${folder}/allure-results"
+ALLURE_SERVER="http://domain:port"
 
 # Project ID according to existent projects in your Allure container - Check endpoint for project creation >> `[POST]/projects`
 PROJECT_ID=${folder_lower}

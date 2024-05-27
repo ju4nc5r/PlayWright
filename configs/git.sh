@@ -2,13 +2,13 @@
 user=$1
 pass=$2
 DIR="$PWD"
-FOLDER='sap-crm-tests'
+FOLDER='folder'
 FULL_PATH="$DIR/$FOLDER"
 
 echo "${DIR}"
 echo "${FULL_PATH}"
 
-url="https://${user}:${pass}@gitlab.sis.ad.bia.itau/homologacion/sap-crm-tests.git"
+url="https://${user}:${pass}@repo"
 #git -c http.sslVerify=false clone -b dev "${url}"
 
 
