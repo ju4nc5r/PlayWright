@@ -1,0 +1,67 @@
+pipeline {
+    agent {
+        label 'agent1' // Especifica el nombre del agente en el cual deseas ejecutar el pipeline
+    }
+    stages {
+        stage('Git clone') {
+            steps {
+                withCredentials([usernamePassword(credentialsId: 'git', passwordVariable: 'PASS', usernameVariable: 'USER')])
+                {
+                    sh '''
+                        Ruta actual: echo $pwd
+
+                        ./git.sh $USER $PASS
+                        ls -la
+                     '''
+                }
+            }
+        }
+        stage('Test Execution') {
+            steps {
+                script {
+                    dir('sap-crm-tests/PlaywrightFramework') {
+                        // Se construye el entorno virtual en caso de que no este y se activa
+                        sh '''
+                            ls -la
+                            python3 -m venv venv
+                            . venv/bin/activate
+                            pip3 install -r requirements.txt
+                            pip3 list
+                            cd projects/HBPF/
+                            mkdir allure-results
+                            cd test
+                            ls -la
+                            pytest test_HB01.py --numprocesses auto --alluredir=../allure-results
+                        ''' // Por ejemplo, listar el contenido del directorio
+                    }
+                }
+            }
+        }
+        stage('Send Results') {
+            steps {
+                script {
+                    // Aquí se ejecutarán los comandos dentro del directorio '/ruta/a/mi/directorio'
+                    sh '''
+                        ls -la
+                        ./send_results.sh
+                    ''' // Por ejemplo, listar el contenido del directorio
+                }
+
+            }
+        }
+        stage('Delete files and results') {
+            steps {
+                script {
+                    dir('sap-crm-tests/PlaywrightFramework/projects/HBPF/') {
+                        // Se construye el entorno virtual en caso de que no este y se activa
+                            sh '''
+                                ls -la
+                                rm -r allure-results files
+                            ''' // Por ejemplo, listar el contenido del directorio
+                    }
+                }
+            }
+        }
+    }
+}
+
