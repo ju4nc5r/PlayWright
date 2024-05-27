@@ -1,0 +1,228 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "children" : [ {
+      "name" : "SUC_T262",
+      "children" : [ {
+        "name" : "SUC_T262",
+        "children" : [ {
+          "name" : "SUC-T262 - Terminales - Baja",
+          "uid" : "cb4c6b7305fa58ee",
+          "parentUid" : "fe4485228718725bb35bc55de8d6be27",
+          "status" : "failed",
+          "time" : {
+            "start" : 1699639450573,
+            "stop" : 1699639503712,
+            "duration" : 53139
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "fe4485228718725bb35bc55de8d6be27"
+      } ],
+      "uid" : "0ecc55689f449aa018073a1b42ce8425"
+    }, {
+      "name" : "SUC_T330",
+      "children" : [ {
+        "name" : "SUC_T330",
+        "children" : [ {
+          "name" : "SUC-T330 - Consultas - Operadores registrados",
+          "uid" : "f7b2729b0100bd77",
+          "parentUid" : "e474a7f1489353f4aad8117cc5dee927",
+          "status" : "failed",
+          "time" : {
+            "start" : 1699639506921,
+            "stop" : 1699639546923,
+            "duration" : 40002
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "e474a7f1489353f4aad8117cc5dee927"
+      } ],
+      "uid" : "3c3f3ab1f7352f2b375935aed1d123a6"
+    }, {
+      "name" : "SUC_T334",
+      "children" : [ {
+        "name" : "SUC_T334",
+        "children" : [ {
+          "name" : "SUC-T334 - Consultas - Saldos de caja",
+          "uid" : "26d0d20e08394927",
+          "parentUid" : "3d6bcaf25593af4b3f28d64b6f450778",
+          "status" : "failed",
+          "time" : {
+            "start" : 1699639550092,
+            "stop" : 1699639594147,
+            "duration" : 44055
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "3d6bcaf25593af4b3f28d64b6f450778"
+      } ],
+      "uid" : "bd2d4f97d330e28ba44599ee7d697fd1"
+    }, {
+      "name" : "SUC_T335",
+      "children" : [ {
+        "name" : "SUC_T335",
+        "children" : [ {
+          "name" : "SUC-T335 - Consultas - Saldos de caja - Totales de saldos por sucursal",
+          "uid" : "70bd853ad095cac6",
+          "parentUid" : "3dfbcbdf2825b4693ae651186af937b0",
+          "status" : "failed",
+          "time" : {
+            "start" : 1699639597430,
+            "stop" : 1699639641677,
+            "duration" : 44247
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "3dfbcbdf2825b4693ae651186af937b0"
+      } ],
+      "uid" : "852be7a11e4a9f36f8f1d3985cb26830"
+    }, {
+      "name" : "SUC_T342",
+      "children" : [ {
+        "name" : "SUC_T342",
+        "children" : [ {
+          "name" : "SUC-T342 - consulta de Movimientos de caja - Imprimir",
+          "uid" : "e283ae4d7a19add7",
+          "parentUid" : "cdd42530fa690c0baf1d7b064dd43220",
+          "status" : "failed",
+          "time" : {
+            "start" : 1699639644901,
+            "stop" : 1699639689511,
+            "duration" : 44610
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "cdd42530fa690c0baf1d7b064dd43220"
+      } ],
+      "uid" : "59839ee1db896f849a38fbc5c12e72ae"
+    }, {
+      "name" : "SUC_T343",
+      "children" : [ {
+        "name" : "SUC_T343",
+        "children" : [ {
+          "name" : "SUC-T343 - consulta de Movimientos de caja - Descargar",
+          "uid" : "1cee39f0706de346",
+          "parentUid" : "aefd86b18edfef5f10d71fe6001898c1",
+          "status" : "failed",
+          "time" : {
+            "start" : 1699639692746,
+            "stop" : 1699639738827,
+            "duration" : 46081
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "aefd86b18edfef5f10d71fe6001898c1"
+      } ],
+      "uid" : "52d50bdea44e79fe384f9bb2cabb03df"
+    }, {
+      "name" : "SUC_T345",
+      "children" : [ {
+        "name" : "SUC_T345",
+        "children" : [ {
+          "name" : "SUC-T345 - Consultas - Pesos",
+          "uid" : "f32c323b649882c6",
+          "parentUid" : "f68d4243471ef5ece3b5adb69c5dc432",
+          "status" : "failed",
+          "time" : {
+            "start" : 1699639741994,
+            "stop" : 1699639785917,
+            "duration" : 43923
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "f68d4243471ef5ece3b5adb69c5dc432"
+      } ],
+      "uid" : "3d4b5608020254f66384c3e6b7d399c4"
+    }, {
+      "name" : "SUC_T353",
+      "children" : [ {
+        "name" : "SUC_T353",
+        "children" : [ {
+          "name" : "SUC-T353 - Consultas - Dolares",
+          "uid" : "de57731628cc4f58",
+          "parentUid" : "8f1c80b97da284898d4730c1a2b1ff07",
+          "status" : "failed",
+          "time" : {
+            "start" : 1699639789107,
+            "stop" : 1699639833512,
+            "duration" : 44405
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "8f1c80b97da284898d4730c1a2b1ff07"
+      } ],
+      "uid" : "cf13484b0998af844388cb802dd47200"
+    }, {
+      "name" : "SUC_T354",
+      "children" : [ {
+        "name" : "SUC_T354",
+        "children" : [ {
+          "name" : "SUC-T354 - Consultas - Euros",
+          "uid" : "4164a9bd8c069ac6",
+          "parentUid" : "272228b2fd4b69481a64d7a4430fbd28",
+          "status" : "failed",
+          "time" : {
+            "start" : 1699639836681,
+            "stop" : 1699639883964,
+            "duration" : 47283
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "272228b2fd4b69481a64d7a4430fbd28"
+      } ],
+      "uid" : "e37aae02a1792c559a8c93cb57e5aa1c"
+    }, {
+      "name" : "SUC_T355",
+      "children" : [ {
+        "name" : "SUC_T355",
+        "children" : [ {
+          "name" : "SUC-T355 - Consultas - Reales",
+          "uid" : "7dfa4646fff55215",
+          "parentUid" : "ee7de5ac5a2ec22bd12217d31900a125",
+          "status" : "failed",
+          "time" : {
+            "start" : 1699639887164,
+            "stop" : 1699639931770,
+            "duration" : 44606
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "ee7de5ac5a2ec22bd12217d31900a125"
+      } ],
+      "uid" : "42e1195b761367314112da016fe8d08a"
+    }, {
+      "name" : "SUC_T349",
+      "children" : [ {
+        "name" : "SUC_T349",
+        "children" : [ {
+          "name" : "SUC-T349- Consultas - Tickets",
+          "uid" : "a823f1ceea97963f",
+          "parentUid" : "cde16e9a0f2601f505cae2f4c127f85c",
+          "status" : "failed",
+          "time" : {
+            "start" : 1699639934946,
+            "stop" : 1699639989664,
+            "duration" : 54718
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "cde16e9a0f2601f505cae2f4c127f85c"
+      } ],
+      "uid" : "64c86cd3d71a805d420d0a5883aba90e"
+    } ],
+    "uid" : "84e4fb228aa5651a31b5ca4d2bc531de"
+  } ]
+}

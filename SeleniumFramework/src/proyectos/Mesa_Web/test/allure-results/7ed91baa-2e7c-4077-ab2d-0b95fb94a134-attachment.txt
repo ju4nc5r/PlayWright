@@ -1,0 +1,9 @@
+Hola,
+//a[contains(@title,'Seleccionar otro Perfil')]
+//label[@for='j_id_38:9'][contains(.,'OperadorMesaDinero')]
+//input[contains(@name,'switchButton')]
+Ult. Pcio. Oper.
+$ 89,000000
+89.000000
+89.000000
+50104829

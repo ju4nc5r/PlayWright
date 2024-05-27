@@ -1,0 +1,21 @@
+"Status","Name","Duration in ms","Description"
+"passed","Mesa_T007.Mesa_T007#test_Mesa_T007","103316","
+1.-Ir a https://waslibhomo.sis.ad.bia.itau/tradingNS/pages/login.xhtml</br>
+2.-Poner Usuario y Contraseña de Red y luego presionar ingresar</br>
+3.-Presionar en la sección perfil sobre el operador asignado</br>
+4.-Elegir perfil OperadorMesaDeDinero y luego presionar ""Cambiar Perfil""</br>
+5.-Dentro del menú ""Operaciones"" ir a la opción Acciones y realizar click en el submenú ""venta""</br>
+6.-Realizar búsqueda del cliente por ""Nro cliente"" = 000026 y presionar Buscar</br>
+7.-Seleccionar Nombre/Razón Social= ""Automatización Mesa Web"".</br>
+8.-Presionar siguiente.</br>
+9.-Seleccionar Cuenta custodia 00000000098.</br>
+10.-Ingresar instrumento AGRO (AGROMETAL ORD. 1 VOTO 0) y seleccionarlo del desplegable.</br>
+11.-Presionar siguiente</br>
+12.-Ingresar cantidad 111 y precio debe ser igual al informado en la seccion detalle del instrumento como ""ult. Pcio. Oper""</br>
+13.-Presionar Venta banco</br>
+14.-Presionar Aceptar</br>
+15.-Presionar Aceptar</br>
+16.-Debe mostrar el número de operación generado y luego Presionar ir a la bandeja</br>
+17.-En la bandeja de ordenes debe aparecer el registro con el nro de operación generado en el paso anterior</br>
+</br>
+    "

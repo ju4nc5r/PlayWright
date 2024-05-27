@@ -1,0 +1,185 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Failed: Test Fail\nTraceback (most recent call last):\n  File \"C:\\ITAU_Tools\\QA_Automation\\workspace\\Fram27\\src\\proyectos\\Caja_Homo_suc50\\test\\SUC_T262.py\", line 52, in test_SUC_T262\n    self.seleccionarTerminales()\n  File \"C:\\ITAU_Tools\\QA_Automation\\workspace\\Fram27\\src\\proyectos\\Caja_Homo_suc50\\st\\stAdminInicio.py\", line 250, in seleccionarTerminales\n    self.fail_msg(msgFail)\n  File \"C:\\ITAU_Tools\\QA_Automation\\workspace\\Fram27\\src\\error_management.py\", line 13, in fail_msg\n    raise Exception(description)\nException: No se pudo seleccionar menu - terminales",
+      "children" : [ {
+        "name" : "SUC-T262 - Terminales - Baja",
+        "uid" : "cb4c6b7305fa58ee",
+        "parentUid" : "ef2c5b2d333b35ba396e53e8be87ce36",
+        "status" : "failed",
+        "time" : {
+          "start" : 1699639450573,
+          "stop" : 1699639503712,
+          "duration" : 53139
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ef2c5b2d333b35ba396e53e8be87ce36"
+    }, {
+      "name" : "Failed: Test Fail\nTraceback (most recent call last):\n  File \"C:\\ITAU_Tools\\QA_Automation\\workspace\\Fram27\\src\\proyectos\\Caja_Homo_suc50\\test\\SUC_T330.py\", line 49, in test_SUC_T330\n    self.seleccionarConsultas()\n  File \"C:\\ITAU_Tools\\QA_Automation\\workspace\\Fram27\\src\\proyectos\\Caja_Homo_suc50\\st\\stAdminInicio.py\", line 151, in seleccionarConsultas\n    self.fail_msg(msgFail)\n  File \"C:\\ITAU_Tools\\QA_Automation\\workspace\\Fram27\\src\\error_management.py\", line 13, in fail_msg\n    raise Exception(description)\nException: No se pudo seleccionar menu - consultas",
+      "children" : [ {
+        "name" : "SUC-T330 - Consultas - Operadores registrados",
+        "uid" : "f7b2729b0100bd77",
+        "parentUid" : "68dcb2419a770e29555adcc5a11a6cab",
+        "status" : "failed",
+        "time" : {
+          "start" : 1699639506921,
+          "stop" : 1699639546923,
+          "duration" : 40002
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "68dcb2419a770e29555adcc5a11a6cab"
+    }, {
+      "name" : "Failed: Test Fail\nTraceback (most recent call last):\n  File \"C:\\ITAU_Tools\\QA_Automation\\workspace\\Fram27\\src\\proyectos\\Caja_Homo_suc50\\test\\SUC_T334.py\", line 52, in test_SUC_T334\n    self.seleccionarConsultas()\n  File \"C:\\ITAU_Tools\\QA_Automation\\workspace\\Fram27\\src\\proyectos\\Caja_Homo_suc50\\st\\stAdminInicio.py\", line 151, in seleccionarConsultas\n    self.fail_msg(msgFail)\n  File \"C:\\ITAU_Tools\\QA_Automation\\workspace\\Fram27\\src\\error_management.py\", line 13, in fail_msg\n    raise Exception(description)\nException: No se pudo seleccionar menu - consultas",
+      "children" : [ {
+        "name" : "SUC-T334 - Consultas - Saldos de caja",
+        "uid" : "26d0d20e08394927",
+        "parentUid" : "0cbaa8b4148f5bd9383adf0935b31770",
+        "status" : "failed",
+        "time" : {
+          "start" : 1699639550092,
+          "stop" : 1699639594147,
+          "duration" : 44055
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0cbaa8b4148f5bd9383adf0935b31770"
+    }, {
+      "name" : "Failed: Test Fail\nTraceback (most recent call last):\n  File \"C:\\ITAU_Tools\\QA_Automation\\workspace\\Fram27\\src\\proyectos\\Caja_Homo_suc50\\test\\SUC_T335.py\", line 48, in test_SUC_T335\n    self.seleccionarConsultas()\n  File \"C:\\ITAU_Tools\\QA_Automation\\workspace\\Fram27\\src\\proyectos\\Caja_Homo_suc50\\st\\stAdminInicio.py\", line 151, in seleccionarConsultas\n    self.fail_msg(msgFail)\n  File \"C:\\ITAU_Tools\\QA_Automation\\workspace\\Fram27\\src\\error_management.py\", line 13, in fail_msg\n    raise Exception(description)\nException: No se pudo seleccionar menu - consultas",
+      "children" : [ {
+        "name" : "SUC-T335 - Consultas - Saldos de caja - Totales de saldos por sucursal",
+        "uid" : "70bd853ad095cac6",
+        "parentUid" : "d0120bed850a55814da1db1e568214bc",
+        "status" : "failed",
+        "time" : {
+          "start" : 1699639597430,
+          "stop" : 1699639641677,
+          "duration" : 44247
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d0120bed850a55814da1db1e568214bc"
+    }, {
+      "name" : "Failed: Test Fail\nTraceback (most recent call last):\n  File \"C:\\ITAU_Tools\\QA_Automation\\workspace\\Fram27\\src\\proyectos\\Caja_Homo_suc50\\test\\SUC_T342.py\", line 53, in test_SUC_T342\n    self.seleccionarConsultas()\n  File \"C:\\ITAU_Tools\\QA_Automation\\workspace\\Fram27\\src\\proyectos\\Caja_Homo_suc50\\st\\stAdminInicio.py\", line 151, in seleccionarConsultas\n    self.fail_msg(msgFail)\n  File \"C:\\ITAU_Tools\\QA_Automation\\workspace\\Fram27\\src\\error_management.py\", line 13, in fail_msg\n    raise Exception(description)\nException: No se pudo seleccionar menu - consultas",
+      "children" : [ {
+        "name" : "SUC-T342 - consulta de Movimientos de caja - Imprimir",
+        "uid" : "e283ae4d7a19add7",
+        "parentUid" : "1571349a42cdfad46ba5980565788cde",
+        "status" : "failed",
+        "time" : {
+          "start" : 1699639644901,
+          "stop" : 1699639689511,
+          "duration" : 44610
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1571349a42cdfad46ba5980565788cde"
+    }, {
+      "name" : "Failed: Test Fail\nTraceback (most recent call last):\n  File \"C:\\ITAU_Tools\\QA_Automation\\workspace\\Fram27\\src\\proyectos\\Caja_Homo_suc50\\test\\SUC_T343.py\", line 52, in test_SUC_T343\n    self.seleccionarConsultas()\n  File \"C:\\ITAU_Tools\\QA_Automation\\workspace\\Fram27\\src\\proyectos\\Caja_Homo_suc50\\st\\stAdminInicio.py\", line 151, in seleccionarConsultas\n    self.fail_msg(msgFail)\n  File \"C:\\ITAU_Tools\\QA_Automation\\workspace\\Fram27\\src\\error_management.py\", line 13, in fail_msg\n    raise Exception(description)\nException: No se pudo seleccionar menu - consultas",
+      "children" : [ {
+        "name" : "SUC-T343 - consulta de Movimientos de caja - Descargar",
+        "uid" : "1cee39f0706de346",
+        "parentUid" : "815b03b9de2e285cf73b622beb01a58f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1699639692746,
+          "stop" : 1699639738827,
+          "duration" : 46081
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "815b03b9de2e285cf73b622beb01a58f"
+    }, {
+      "name" : "Failed: Test Fail\nTraceback (most recent call last):\n  File \"C:\\ITAU_Tools\\QA_Automation\\workspace\\Fram27\\src\\proyectos\\Caja_Homo_suc50\\test\\SUC_T345.py\", line 53, in test_SUC_T345\n    self.seleccionarConsultas()\n  File \"C:\\ITAU_Tools\\QA_Automation\\workspace\\Fram27\\src\\proyectos\\Caja_Homo_suc50\\st\\stAdminInicio.py\", line 151, in seleccionarConsultas\n    self.fail_msg(msgFail)\n  File \"C:\\ITAU_Tools\\QA_Automation\\workspace\\Fram27\\src\\error_management.py\", line 13, in fail_msg\n    raise Exception(description)\nException: No se pudo seleccionar menu - consultas",
+      "children" : [ {
+        "name" : "SUC-T345 - Consultas - Pesos",
+        "uid" : "f32c323b649882c6",
+        "parentUid" : "9be24c034e05543eeef1f5b1c10e45fc",
+        "status" : "failed",
+        "time" : {
+          "start" : 1699639741994,
+          "stop" : 1699639785917,
+          "duration" : 43923
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9be24c034e05543eeef1f5b1c10e45fc"
+    }, {
+      "name" : "Failed: Test Fail\nTraceback (most recent call last):\n  File \"C:\\ITAU_Tools\\QA_Automation\\workspace\\Fram27\\src\\proyectos\\Caja_Homo_suc50\\test\\SUC_T353.py\", line 53, in test_SUC_T353\n    self.seleccionarConsultas()\n  File \"C:\\ITAU_Tools\\QA_Automation\\workspace\\Fram27\\src\\proyectos\\Caja_Homo_suc50\\st\\stAdminInicio.py\", line 151, in seleccionarConsultas\n    self.fail_msg(msgFail)\n  File \"C:\\ITAU_Tools\\QA_Automation\\workspace\\Fram27\\src\\error_management.py\", line 13, in fail_msg\n    raise Exception(description)\nException: No se pudo seleccionar menu - consultas",
+      "children" : [ {
+        "name" : "SUC-T353 - Consultas - Dolares",
+        "uid" : "de57731628cc4f58",
+        "parentUid" : "c2b7118be943088d15e5c9570c7fe49f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1699639789107,
+          "stop" : 1699639833512,
+          "duration" : 44405
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c2b7118be943088d15e5c9570c7fe49f"
+    }, {
+      "name" : "Failed: Test Fail\nTraceback (most recent call last):\n  File \"C:\\ITAU_Tools\\QA_Automation\\workspace\\Fram27\\src\\proyectos\\Caja_Homo_suc50\\test\\SUC_T354.py\", line 52, in test_SUC_T354\n    self.seleccionarConsultas()\n  File \"C:\\ITAU_Tools\\QA_Automation\\workspace\\Fram27\\src\\proyectos\\Caja_Homo_suc50\\st\\stAdminInicio.py\", line 151, in seleccionarConsultas\n    self.fail_msg(msgFail)\n  File \"C:\\ITAU_Tools\\QA_Automation\\workspace\\Fram27\\src\\error_management.py\", line 13, in fail_msg\n    raise Exception(description)\nException: No se pudo seleccionar menu - consultas",
+      "children" : [ {
+        "name" : "SUC-T354 - Consultas - Euros",
+        "uid" : "4164a9bd8c069ac6",
+        "parentUid" : "b2486c6de4e510bd3f6df72a61ec1b00",
+        "status" : "failed",
+        "time" : {
+          "start" : 1699639836681,
+          "stop" : 1699639883964,
+          "duration" : 47283
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b2486c6de4e510bd3f6df72a61ec1b00"
+    }, {
+      "name" : "Failed: Test Fail\nTraceback (most recent call last):\n  File \"C:\\ITAU_Tools\\QA_Automation\\workspace\\Fram27\\src\\proyectos\\Caja_Homo_suc50\\test\\SUC_T355.py\", line 52, in test_SUC_T355\n    self.seleccionarConsultas()\n  File \"C:\\ITAU_Tools\\QA_Automation\\workspace\\Fram27\\src\\proyectos\\Caja_Homo_suc50\\st\\stAdminInicio.py\", line 151, in seleccionarConsultas\n    self.fail_msg(msgFail)\n  File \"C:\\ITAU_Tools\\QA_Automation\\workspace\\Fram27\\src\\error_management.py\", line 13, in fail_msg\n    raise Exception(description)\nException: No se pudo seleccionar menu - consultas",
+      "children" : [ {
+        "name" : "SUC-T355 - Consultas - Reales",
+        "uid" : "7dfa4646fff55215",
+        "parentUid" : "ed9d693bff57387669c54385e35b6630",
+        "status" : "failed",
+        "time" : {
+          "start" : 1699639887164,
+          "stop" : 1699639931770,
+          "duration" : 44606
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ed9d693bff57387669c54385e35b6630"
+    }, {
+      "name" : "Failed: Test Fail\nTraceback (most recent call last):\n  File \"C:\\ITAU_Tools\\QA_Automation\\workspace\\Fram27\\src\\proyectos\\Caja_Homo_suc50\\test\\SUC_T349.py\", line 59, in test_SUC_T349\n    self.seleccionarConsultas()\n  File \"C:\\ITAU_Tools\\QA_Automation\\workspace\\Fram27\\src\\proyectos\\Caja_Homo_suc50\\st\\stAdminInicio.py\", line 151, in seleccionarConsultas\n    self.fail_msg(msgFail)\n  File \"C:\\ITAU_Tools\\QA_Automation\\workspace\\Fram27\\src\\error_management.py\", line 13, in fail_msg\n    raise Exception(description)\nException: No se pudo seleccionar menu - consultas",
+      "children" : [ {
+        "name" : "SUC-T349- Consultas - Tickets",
+        "uid" : "a823f1ceea97963f",
+        "parentUid" : "e7376bfe7b90f3a3a7de3a1be52fa1c0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1699639934946,
+          "stop" : 1699639989664,
+          "duration" : 54718
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e7376bfe7b90f3a3a7de3a1be52fa1c0"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

@@ -1,0 +1,18 @@
+﻿<environment>
+    <parameter>
+        <key>Aplicacion</key>
+        <value>Caja_AdminCaja_HOMOLOGACION</value>
+    </parameter>
+    <parameter>
+        <key>Browser</key>
+        <value>Chrome</value>
+    </parameter>
+    <parameter>
+        <key>Ambiente</key>
+        <value>Homologacion</value>
+    </parameter>
+    <parameter>
+        <key>Nodo</key>
+        <value>IBA9079</value>
+    </parameter>
+</environment>

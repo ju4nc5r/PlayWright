@@ -1,0 +1,73 @@
+[INFO   |2023-11-10 15:08:12,747] log       :31 | createLog          | El log se crea en C:/ITAU_Tools/evidencias/homologacion\Caja_Homo_suc50\screenshots\2023-11-10\SUC_T343\150812\\SUC_T343.log
+[INFO   |2023-11-10 15:08:12,748] browser   :26 | openChrome         | Se inicializa Chrome
+[INFO   |2023-11-10 15:08:20,643] sub       :141| wait               | Se pausa el test por 1 segundos
+[INFO   |2023-11-10 15:08:21,828] allure_driver:14 | attach_element     | Se adjuntó la imagen Abrir Admin caja en allure
+[INFO   |2023-11-10 15:08:21,829] image     :35 | capture_image      | Se realiza la captura de pantalla. Abrir Admin caja
+[INFO   |2023-11-10 15:08:25,300] sub       :141| wait               | Se pausa el test por 0.01 segundos
+[INFO   |2023-11-10 15:08:25,324] search    :72 | visibility_element | Se encontró el elemento //input[@formcontrolname='loginLegajo']
+[INFO   |2023-11-10 15:08:25,324] search    :27 | search_element_by  | Se busca elemento con parametro xpath y valor //input[@formcontrolname='loginLegajo']
+[INFO   |2023-11-10 15:08:25,368] keyboard  :113| clear              | Se borra el contenido del elemento {}
+[INFO   |2023-11-10 15:08:25,368] search    :27 | search_element_by  | Se busca elemento con parametro xpath y valor //input[@formcontrolname='loginLegajo']
+[INFO   |2023-11-10 15:08:25,413] keyboard  :86 | write              | Se va a tipear "UIC10022" en //input[@formcontrolname='loginLegajo']
+[INFO   |2023-11-10 15:08:25,413] sub       :141| wait               | Se pausa el test por 1 segundos
+[INFO   |2023-11-10 15:08:26,557] allure_driver:14 | attach_element     | Se adjuntó la imagen Se pudo completar usuario en allure
+[INFO   |2023-11-10 15:08:26,557] image     :35 | capture_image      | Se realiza la captura de pantalla. Se pudo completar usuario
+[INFO   |2023-11-10 15:08:26,586] sub       :141| wait               | Se pausa el test por 0.01 segundos
+[INFO   |2023-11-10 15:08:26,605] search    :72 | visibility_element | Se encontró el elemento //input[@formcontrolname='loginTerminal']
+[INFO   |2023-11-10 15:08:26,606] search    :27 | search_element_by  | Se busca elemento con parametro xpath y valor //input[@formcontrolname='loginTerminal']
+[INFO   |2023-11-10 15:08:26,638] keyboard  :113| clear              | Se borra el contenido del elemento {}
+[INFO   |2023-11-10 15:08:26,638] search    :27 | search_element_by  | Se busca elemento con parametro xpath y valor //input[@formcontrolname='loginTerminal']
+[INFO   |2023-11-10 15:08:26,697] keyboard  :86 | write              | Se va a tipear "IA0500822" en //input[@formcontrolname='loginTerminal']
+[INFO   |2023-11-10 15:08:26,697] sub       :141| wait               | Se pausa el test por 1 segundos
+[INFO   |2023-11-10 15:08:27,869] allure_driver:14 | attach_element     | Se adjuntó la imagen Se pudo completar terminal en allure
+[INFO   |2023-11-10 15:08:27,869] image     :35 | capture_image      | Se realiza la captura de pantalla. Se pudo completar terminal
+[INFO   |2023-11-10 15:08:27,894] sub       :141| wait               | Se pausa el test por 0.01 segundos
+[INFO   |2023-11-10 15:08:27,917] search    :72 | visibility_element | Se encontró el elemento //input[@formcontrolname='loginPassword']
+[INFO   |2023-11-10 15:08:27,935] sub       :141| wait               | Se pausa el test por 0.01 segundos
+[INFO   |2023-11-10 15:08:27,948] search    :72 | visibility_element | Se encontró el elemento //input[@formcontrolname='loginPassword']
+[INFO   |2023-11-10 15:08:27,948] search    :27 | search_element_by  | Se busca elemento con parametro xpath y valor //input[@formcontrolname='loginPassword']
+[INFO   |2023-11-10 15:08:27,979] keyboard  :113| clear              | Se borra el contenido del elemento {}
+[INFO   |2023-11-10 15:08:27,979] search    :27 | search_element_by  | Se busca elemento con parametro xpath y valor //input[@formcontrolname='loginPassword']
+[INFO   |2023-11-10 15:08:28,035] keyboard  :86 | write              | Se va a tipear "Ingreso22" en //input[@formcontrolname='loginPassword']
+[INFO   |2023-11-10 15:08:28,035] sub       :141| wait               | Se pausa el test por 1 segundos
+[INFO   |2023-11-10 15:08:29,219] allure_driver:14 | attach_element     | Se adjuntó la imagen Completar clave en allure
+[INFO   |2023-11-10 15:08:29,220] image     :35 | capture_image      | Se realiza la captura de pantalla. Completar clave
+[INFO   |2023-11-10 15:08:29,245] sub       :141| wait               | Se pausa el test por 0.01 segundos
+[INFO   |2023-11-10 15:08:29,264] search    :72 | visibility_element | Se encontró el elemento //button[contains(.,'Aceptar')]
+[INFO   |2023-11-10 15:08:29,283] sub       :141| wait               | Se pausa el test por 0.01 segundos
+[INFO   |2023-11-10 15:08:29,295] search    :72 | visibility_element | Se encontró el elemento //button[contains(.,'Aceptar')]
+[INFO   |2023-11-10 15:08:29,322] sub       :141| wait               | Se pausa el test por 0.01 segundos
+[INFO   |2023-11-10 15:08:29,343] search    :27 | search_element_by  | Se busca elemento con parametro xpath y valor //button[contains(.,'Aceptar')]
+[INFO   |2023-11-10 15:08:29,397] mouse     :21 | selectElement      | Se selecciona el elemento //button[contains(.,'Aceptar')]
+[INFO   |2023-11-10 15:08:29,397] sub       :141| wait               | Se pausa el test por 1 segundos
+[INFO   |2023-11-10 15:08:30,567] allure_driver:14 | attach_element     | Se adjuntó la imagen Se pudo seleccionar ingresar en allure
+[INFO   |2023-11-10 15:08:30,567] image     :35 | capture_image      | Se realiza la captura de pantalla. Se pudo seleccionar ingresar
+[INFO   |2023-11-10 15:08:30,568] sub       :141| wait               | Se pausa el test por 10 segundos
+[INFO   |2023-11-10 15:08:40,631] sub       :141| wait               | Se pausa el test por 0.01 segundos
+[INFO   |2023-11-10 15:08:40,648] search    :72 | visibility_element | Se encontró el elemento //span[contains(.,'Hola UIC10022  !')]
+[INFO   |2023-11-10 15:08:40,701] sub       :141| wait               | Se pausa el test por 0.01 segundos
+[INFO   |2023-11-10 15:08:40,726] search    :72 | visibility_element | Se encontró el elemento //span[contains(.,'Hola UIC10022  !')]
+[INFO   |2023-11-10 15:08:40,798] js        :45 | highlight          | Se resalta el elemento //span[contains(.,'Hola UIC10022  !')]
+[INFO   |2023-11-10 15:08:40,799] sub       :141| wait               | Se pausa el test por 0.1 segundos
+[INFO   |2023-11-10 15:08:40,914] sub       :141| wait               | Se pausa el test por 0.2 segundos
+[INFO   |2023-11-10 15:08:41,296] allure_driver:14 | attach_element     | Se adjuntó la imagen Validar nombre del cajero en allure
+[INFO   |2023-11-10 15:08:41,296] image     :35 | capture_image      | Se realiza la captura de pantalla. Validar nombre del cajero
+[INFO   |2023-11-10 15:08:41,304] sub       :141| wait               | Se pausa el test por 5 segundos
+[WARNING|2023-11-10 15:08:56,458] search    :70 | visibility_element | No se muestra el elemento //button[contains(@class,'btnMenu') and contains(.,'Consultas')]
+[INFO   |2023-11-10 15:08:56,459] sub       :141| wait               | Se pausa el test por 1 segundos
+[INFO   |2023-11-10 15:08:57,621] allure_driver:14 | attach_element     | Se adjuntó la imagen No se pudo seleccionar menu - consultas en allure
+[INFO   |2023-11-10 15:08:57,621] image     :35 | capture_image      | Se realiza la captura de pantalla. No se pudo seleccionar menu - consultas
+[ERROR  |2023-11-10 15:08:57,621] error_management:12 | fail_msg           | No se pudo seleccionar menu - consultas
+[INFO   |2023-11-10 15:08:57,623] sub       :141| wait               | Se pausa el test por 1 segundos
+[INFO   |2023-11-10 15:08:58,825] allure_driver:14 | attach_element     | Se adjuntó la imagen Test Fail en allure
+[INFO   |2023-11-10 15:08:58,825] image     :35 | capture_image      | Se realiza la captura de pantalla. Test Fail
+[ERROR  |2023-11-10 15:08:58,825] error_management:32 | fail_test          | Test Fail
+Traceback (most recent call last):
+  File "C:\ITAU_Tools\QA_Automation\workspace\Fram27\src\proyectos\Caja_Homo_suc50\test\SUC_T343.py", line 52, in test_SUC_T343
+    self.seleccionarConsultas()
+  File "C:\ITAU_Tools\QA_Automation\workspace\Fram27\src\proyectos\Caja_Homo_suc50\st\stAdminInicio.py", line 151, in seleccionarConsultas
+    self.fail_msg(msgFail)
+  File "C:\ITAU_Tools\QA_Automation\workspace\Fram27\src\error_management.py", line 13, in fail_msg
+    raise Exception(description)
+Exception: No se pudo seleccionar menu - consultas
+

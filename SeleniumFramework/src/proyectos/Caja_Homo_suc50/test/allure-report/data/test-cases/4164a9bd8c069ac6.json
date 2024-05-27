@@ -1,0 +1,340 @@
+{
+  "uid" : "4164a9bd8c069ac6",
+  "name" : "SUC-T354 - Consultas - Euros",
+  "fullName" : "SUC_T354.SUC_T354#test_SUC_T354",
+  "historyId" : "5a23e9651dacd4b8c12a2572b7fda1c7",
+  "time" : {
+    "start" : 1699639836681,
+    "stop" : 1699639883964,
+    "duration" : 47283
+  },
+  "description" : "\n1-Ingresar a la pagina Administración de Cajas (https://fe-admincaja-dist-icaja-front-homo.ocprch.sis.ad.bia.itau/#/)</br>  \n2-Colocar los datos del Supervisor (Legajo - Terminal - Password).</br>  \nLegajo: UIC10022</br>  \nTerminal:IA0500822  </br>  \nPassword:</br>  \nHacer clic en Aceptar.</br>  \n3-Visualizar los datos del Cajero: \"Hola UIC10022 !\" </br>  \n4-Visualizar en el recuadro los datos del cajero: </br>  \nLegajo: \"UIC10022\" </br>  \nTerminal: \"IA0500822  \" </br>  \nSucursal: \"0050\" Terminal: \"IA0500822  \" Sucursal: \"0050\" </br>  \n5-Hacer clic en el Botón Consultas. </br>  \n6-Hacer clic en el Botón Totales ingresos, egresos y líquido de caja. </br>  \n7-Visualizar el titulo Consultas - Totales ingresos, egresos y líquido de caja. </br>  \n8-Validar el item Moneda y Seleccionar Euros </br>  \n9-Validar Sucursal \"0050 - Puerto Madero\" </br>  \n10-Visualizar en pantalla las Terminales registrados.</br>  \n11-Hacer clic en el Botón Buscar.</br>  \n12-Hacer clic en el Botón Imprimir. </br>  \n13-Hacer clic en el Botón Salir.</br>           \n",
+  "descriptionHtml" : "<p>1-Ingresar a la pagina Administración de Cajas (https://fe-admincaja-dist-icaja-front-homo.ocprch.sis.ad.bia.itau/#/)</br><br />\n2-Colocar los datos del Supervisor (Legajo - Terminal - Password).</br><br />\nLegajo: UIC10022</br><br />\nTerminal:IA0500822  </br><br />\nPassword:</br><br />\nHacer clic en Aceptar.</br><br />\n3-Visualizar los datos del Cajero: &quot;Hola UIC10022 !&quot; </br><br />\n4-Visualizar en el recuadro los datos del cajero: </br><br />\nLegajo: &quot;UIC10022&quot; </br><br />\nTerminal: &quot;IA0500822  &quot; </br><br />\nSucursal: &quot;0050&quot; Terminal: &quot;IA0500822  &quot; Sucursal: &quot;0050&quot; </br><br />\n5-Hacer clic en el Botón Consultas. </br><br />\n6-Hacer clic en el Botón Totales ingresos, egresos y líquido de caja. </br><br />\n7-Visualizar el titulo Consultas - Totales ingresos, egresos y líquido de caja. </br><br />\n8-Validar el item Moneda y Seleccionar Euros </br><br />\n9-Validar Sucursal &quot;0050 - Puerto Madero&quot; </br><br />\n10-Visualizar en pantalla las Terminales registrados.</br><br />\n11-Hacer clic en el Botón Buscar.</br><br />\n12-Hacer clic en el Botón Imprimir. </br><br />\n13-Hacer clic en el Botón Salir.</br></p>\n",
+  "status" : "failed",
+  "statusMessage" : "Failed: Test Fail\nTraceback (most recent call last):\n  File \"C:\\ITAU_Tools\\QA_Automation\\workspace\\Fram27\\src\\proyectos\\Caja_Homo_suc50\\test\\SUC_T354.py\", line 52, in test_SUC_T354\n    self.seleccionarConsultas()\n  File \"C:\\ITAU_Tools\\QA_Automation\\workspace\\Fram27\\src\\proyectos\\Caja_Homo_suc50\\st\\stAdminInicio.py\", line 151, in seleccionarConsultas\n    self.fail_msg(msgFail)\n  File \"C:\\ITAU_Tools\\QA_Automation\\workspace\\Fram27\\src\\error_management.py\", line 13, in fail_msg\n    raise Exception(description)\nException: No se pudo seleccionar menu - consultas",
+  "statusTrace" : "self = <proyectos.Caja_Homo_suc50.test.SUC_T354.SUC_T354 testMethod=test_SUC_T354>\n\n    def tearDown(self):\n>       fin(self)\n\nSUC_T354.py:77: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\st\\__init__.py:40: in fin\n    self.fail_test(self.error)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <proyectos.Caja_Homo_suc50.test.SUC_T354.SUC_T354 testMethod=test_SUC_T354>\nerror = 'Traceback (most recent call last):\\n  File \"C:\\\\ITAU_Tools\\\\QA_Automation\\\\workspace\\\\Fram27\\\\src\\\\proyectos\\\\Caja_Ho...ment.py\", line 13, in fail_msg\\n    raise Exception(description)\\nException: No se pudo seleccionar menu - consultas\\n'\n\n    def fail_test(self, error):\n        \"\"\"\n        Method to show a fail in the test. And write the error in the log\n        \"\"\"\n        msg = 'Test Fail'\n        self.capture_image(msg)\n        msg = '{msg}\\n{error}'.format(msg=msg, error=error)\n        self.log.error(msg)\n>       pytest.fail(msg)\nE       Failed: Test Fail\nE       Traceback (most recent call last):\nE         File \"C:\\ITAU_Tools\\QA_Automation\\workspace\\Fram27\\src\\proyectos\\Caja_Homo_suc50\\test\\SUC_T354.py\", line 52, in test_SUC_T354\nE           self.seleccionarConsultas()\nE         File \"C:\\ITAU_Tools\\QA_Automation\\workspace\\Fram27\\src\\proyectos\\Caja_Homo_suc50\\st\\stAdminInicio.py\", line 151, in seleccionarConsultas\nE           self.fail_msg(msgFail)\nE         File \"C:\\ITAU_Tools\\QA_Automation\\workspace\\Fram27\\src\\error_management.py\", line 13, in fail_msg\nE           raise Exception(description)\nE       Exception: No se pudo seleccionar menu - consultas\n\n..\\..\\..\\error_management.py:33: Failed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_UnitTestCase__pytest_class_setup",
+    "time" : {
+      "start" : 1699639836680,
+      "stop" : 1699639836680,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Failed: Test Fail\nTraceback (most recent call last):\n  File \"C:\\ITAU_Tools\\QA_Automation\\workspace\\Fram27\\src\\proyectos\\Caja_Homo_suc50\\test\\SUC_T354.py\", line 52, in test_SUC_T354\n    self.seleccionarConsultas()\n  File \"C:\\ITAU_Tools\\QA_Automation\\workspace\\Fram27\\src\\proyectos\\Caja_Homo_suc50\\st\\stAdminInicio.py\", line 151, in seleccionarConsultas\n    self.fail_msg(msgFail)\n  File \"C:\\ITAU_Tools\\QA_Automation\\workspace\\Fram27\\src\\error_management.py\", line 13, in fail_msg\n    raise Exception(description)\nException: No se pudo seleccionar menu - consultas",
+    "statusTrace" : "self = <proyectos.Caja_Homo_suc50.test.SUC_T354.SUC_T354 testMethod=test_SUC_T354>\n\n    def tearDown(self):\n>       fin(self)\n\nSUC_T354.py:77: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\st\\__init__.py:40: in fin\n    self.fail_test(self.error)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <proyectos.Caja_Homo_suc50.test.SUC_T354.SUC_T354 testMethod=test_SUC_T354>\nerror = 'Traceback (most recent call last):\\n  File \"C:\\\\ITAU_Tools\\\\QA_Automation\\\\workspace\\\\Fram27\\\\src\\\\proyectos\\\\Caja_Ho...ment.py\", line 13, in fail_msg\\n    raise Exception(description)\\nException: No se pudo seleccionar menu - consultas\\n'\n\n    def fail_test(self, error):\n        \"\"\"\n        Method to show a fail in the test. And write the error in the log\n        \"\"\"\n        msg = 'Test Fail'\n        self.capture_image(msg)\n        msg = '{msg}\\n{error}'.format(msg=msg, error=error)\n        self.log.error(msg)\n>       pytest.fail(msg)\nE       Failed: Test Fail\nE       Traceback (most recent call last):\nE         File \"C:\\ITAU_Tools\\QA_Automation\\workspace\\Fram27\\src\\proyectos\\Caja_Homo_suc50\\test\\SUC_T354.py\", line 52, in test_SUC_T354\nE           self.seleccionarConsultas()\nE         File \"C:\\ITAU_Tools\\QA_Automation\\workspace\\Fram27\\src\\proyectos\\Caja_Homo_suc50\\st\\stAdminInicio.py\", line 151, in seleccionarConsultas\nE           self.fail_msg(msgFail)\nE         File \"C:\\ITAU_Tools\\QA_Automation\\workspace\\Fram27\\src\\error_management.py\", line 13, in fail_msg\nE           raise Exception(description)\nE       Exception: No se pudo seleccionar menu - consultas\n\n..\\..\\..\\error_management.py:33: Failed",
+    "steps" : [ {
+      "name" : "PASO 0: Abrir Admin caja",
+      "time" : {
+        "start" : 1699639836681,
+        "stop" : 1699639846784,
+        "duration" : 10103
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1a8ab7bb4744fb74",
+        "name" : "Abrir Admin caja",
+        "source" : "1a8ab7bb4744fb74.png",
+        "type" : "image/png",
+        "size" : 15993
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "PASO 1: Completar Usuario",
+      "time" : {
+        "start" : 1699639850485,
+        "stop" : 1699639851775,
+        "duration" : 1290
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b0b648d728d2043d",
+        "name" : "Se pudo completar usuario",
+        "source" : "b0b648d728d2043d.png",
+        "type" : "image/png",
+        "size" : 17022
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "PASO 2: Completar terminal",
+      "time" : {
+        "start" : 1699639851775,
+        "stop" : 1699639853077,
+        "duration" : 1302
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "902ab53639fef6a",
+        "name" : "Se pudo completar terminal",
+        "source" : "902ab53639fef6a.png",
+        "type" : "image/png",
+        "size" : 17427
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "PASO 3: Completar clave",
+      "time" : {
+        "start" : 1699639853077,
+        "stop" : 1699639854442,
+        "duration" : 1365
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "99443649267bf32c",
+        "name" : "Completar clave",
+        "source" : "99443649267bf32c.png",
+        "type" : "image/png",
+        "size" : 17581
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "PASO 4: Seleccionar Ingresar",
+      "time" : {
+        "start" : 1699639854442,
+        "stop" : 1699639855848,
+        "duration" : 1406
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3296fa4316138df5",
+        "name" : "Se pudo seleccionar ingresar",
+        "source" : "3296fa4316138df5.png",
+        "type" : "image/png",
+        "size" : 17613
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "PASO 5: Validar nombre del cajero",
+      "time" : {
+        "start" : 1699639865860,
+        "stop" : 1699639866458,
+        "duration" : 598
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4480f3516b28bdc0",
+        "name" : "Validar nombre del cajero",
+        "source" : "4480f3516b28bdc0.png",
+        "type" : "image/png",
+        "size" : 20889
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "PASO 6: Seleccionar menu - consultas",
+      "time" : {
+        "start" : 1699639871465,
+        "stop" : 1699639882783,
+        "duration" : 11318
+      },
+      "status" : "broken",
+      "statusMessage" : "Exception: No se pudo seleccionar menu - consultas\n",
+      "statusTrace" : "  File \"C:\\ITAU_Tools\\QA_Automation\\workspace\\Fram27\\src\\proyectos\\Caja_Homo_suc50\\st\\stAdminInicio.py\", line 151, in seleccionarConsultas\n    self.fail_msg(msgFail)\n  File \"C:\\ITAU_Tools\\QA_Automation\\workspace\\Fram27\\src\\error_management.py\", line 13, in fail_msg\n    raise Exception(description)\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f746a48af2cb78ec",
+        "name" : "No se pudo seleccionar menu - consultas",
+        "source" : "f746a48af2cb78ec.png",
+        "type" : "image/png",
+        "size" : 21061
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "72c5922a2aea8a66",
+      "name" : "Test Fail",
+      "source" : "72c5922a2aea8a66.png",
+      "type" : "image/png",
+      "size" : 21061
+    }, {
+      "uid" : "f06ecea63bb79bda",
+      "name" : "log",
+      "source" : "f06ecea63bb79bda.txt",
+      "type" : "text/plain",
+      "size" : 6402
+    }, {
+      "uid" : "2e907f92c9106285",
+      "name" : "stderr",
+      "source" : "2e907f92c9106285.txt",
+      "type" : "text/plain",
+      "size" : 8564
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 10,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 7
+  },
+  "afterStages" : [ {
+    "name" : "_UnitTestCase__pytest_class_setup::0",
+    "time" : {
+      "start" : 1699639884063,
+      "stop" : 1699639884063,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Consultas"
+  }, {
+    "name" : "story",
+    "value" : "Totales ingresos, egresos y líquido de caja"
+  }, {
+    "name" : "parentSuite"
+  }, {
+    "name" : "suite",
+    "value" : "SUC_T354"
+  }, {
+    "name" : "subSuite",
+    "value" : "SUC_T354"
+  }, {
+    "name" : "host",
+    "value" : "IBA9079"
+  }, {
+    "name" : "thread",
+    "value" : "19220-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "SUC_T354"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "SUC-T354 - Consultas - Totales ingresos, egresos y líquido de caja - Euros",
+    "url" : "SUC-T354 - Consultas - Totales ingresos, egresos y líquido de caja - Euros",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 6,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 19,
+        "unknown" : 0,
+        "total" : 25
+      },
+      "items" : [ {
+        "uid" : "7bd9f96a60b8f305",
+        "reportUrl" : "http://jenkhl01.sis.ad.bia.itau:8080/jenkins/job/Caja_AdminCaja_HOMOLOGACION/233/allure/#testresult/7bd9f96a60b8f305",
+        "status" : "passed",
+        "time" : {
+          "start" : 1699370277530,
+          "stop" : 1699370352879,
+          "duration" : 75349
+        }
+      }, {
+        "uid" : "9b01b7d39d0bd265",
+        "reportUrl" : "http://jenkhl01.sis.ad.bia.itau:8080/jenkins/job/Caja_AdminCaja_HOMOLOGACION/232/allure/#testresult/9b01b7d39d0bd265",
+        "status" : "passed",
+        "time" : {
+          "start" : 1698932524449,
+          "stop" : 1698932601732,
+          "duration" : 77283
+        }
+      }, {
+        "uid" : "31e676f47a5f1eb2",
+        "reportUrl" : "http://jenkhl01.sis.ad.bia.itau:8080/jenkins/job/Caja_AdminCaja_HOMOLOGACION/231/allure/#testresult/31e676f47a5f1eb2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1698919836021,
+          "stop" : 1698919911787,
+          "duration" : 75766
+        }
+      }, {
+        "uid" : "941ade45382f8667",
+        "reportUrl" : "http://jenkhl01.sis.ad.bia.itau:8080/jenkins/job/Caja_AdminCaja_HOMOLOGACION/230/allure/#testresult/941ade45382f8667",
+        "status" : "passed",
+        "time" : {
+          "start" : 1698847196315,
+          "stop" : 1698847272109,
+          "duration" : 75794
+        }
+      }, {
+        "uid" : "c4a2a70d93ff6ebb",
+        "reportUrl" : "http://jenkhl01.sis.ad.bia.itau:8080/jenkins/job/Caja_AdminCaja_HOMOLOGACION/229/allure/#testresult/c4a2a70d93ff6ebb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1698761364696,
+          "stop" : 1698761440832,
+          "duration" : 76136
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "4164a9bd8c069ac6.json",
+  "parameterValues" : [ ]
+}

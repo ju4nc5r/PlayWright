@@ -1,0 +1,10 @@
+[ {
+  "name" : "Jenkins",
+  "type" : "jenkins",
+  "url" : "http://jenkhl01.sis.ad.bia.itau:8080/jenkins/",
+  "buildOrder" : 234,
+  "buildName" : "Caja_AdminCaja_HOMOLOGACION #234",
+  "buildUrl" : "http://jenkhl01.sis.ad.bia.itau:8080/jenkins/job/Caja_AdminCaja_HOMOLOGACION/234/",
+  "reportName" : "AllureReport",
+  "reportUrl" : "http://jenkhl01.sis.ad.bia.itau:8080/jenkins/job/Caja_AdminCaja_HOMOLOGACION/234/allure"
+} ]

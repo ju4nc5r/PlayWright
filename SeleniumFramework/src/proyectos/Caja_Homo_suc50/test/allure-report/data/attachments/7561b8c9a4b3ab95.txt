@@ -1,0 +1,72 @@
+INFO     utils.Log:log.py:31 El log se crea en C:/ITAU_Tools/evidencias/homologacion\Caja_Homo_suc50\screenshots\2023-11-10\SUC_T355\151127\\SUC_T355.log
+INFO     utils.Log:browser.py:26 Se inicializa Chrome
+INFO     utils.Log:sub.py:141 Se pausa el test por 1 segundos
+INFO     utils.Log:allure_driver.py:14 Se adjuntó la imagen Abrir Admin caja en allure
+INFO     utils.Log:image.py:35 Se realiza la captura de pantalla. Abrir Admin caja
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento //input[@formcontrolname='loginLegajo']
+INFO     utils.Log:search.py:27 Se busca elemento con parametro xpath y valor //input[@formcontrolname='loginLegajo']
+INFO     utils.Log:keyboard.py:113 Se borra el contenido del elemento {}
+INFO     utils.Log:search.py:27 Se busca elemento con parametro xpath y valor //input[@formcontrolname='loginLegajo']
+INFO     utils.Log:keyboard.py:86 Se va a tipear "UIC10022" en //input[@formcontrolname='loginLegajo']
+INFO     utils.Log:sub.py:141 Se pausa el test por 1 segundos
+INFO     utils.Log:allure_driver.py:14 Se adjuntó la imagen Se pudo completar usuario en allure
+INFO     utils.Log:image.py:35 Se realiza la captura de pantalla. Se pudo completar usuario
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento //input[@formcontrolname='loginTerminal']
+INFO     utils.Log:search.py:27 Se busca elemento con parametro xpath y valor //input[@formcontrolname='loginTerminal']
+INFO     utils.Log:keyboard.py:113 Se borra el contenido del elemento {}
+INFO     utils.Log:search.py:27 Se busca elemento con parametro xpath y valor //input[@formcontrolname='loginTerminal']
+INFO     utils.Log:keyboard.py:86 Se va a tipear "IA0500822   " en //input[@formcontrolname='loginTerminal']
+INFO     utils.Log:sub.py:141 Se pausa el test por 1 segundos
+INFO     utils.Log:allure_driver.py:14 Se adjuntó la imagen Se pudo completar terminal en allure
+INFO     utils.Log:image.py:35 Se realiza la captura de pantalla. Se pudo completar terminal
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento //input[@formcontrolname='loginPassword']
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento //input[@formcontrolname='loginPassword']
+INFO     utils.Log:search.py:27 Se busca elemento con parametro xpath y valor //input[@formcontrolname='loginPassword']
+INFO     utils.Log:keyboard.py:113 Se borra el contenido del elemento {}
+INFO     utils.Log:search.py:27 Se busca elemento con parametro xpath y valor //input[@formcontrolname='loginPassword']
+INFO     utils.Log:keyboard.py:86 Se va a tipear "Ingreso22" en //input[@formcontrolname='loginPassword']
+INFO     utils.Log:sub.py:141 Se pausa el test por 1 segundos
+INFO     utils.Log:allure_driver.py:14 Se adjuntó la imagen Completar clave en allure
+INFO     utils.Log:image.py:35 Se realiza la captura de pantalla. Completar clave
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento //button[contains(.,'Aceptar')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento //button[contains(.,'Aceptar')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:27 Se busca elemento con parametro xpath y valor //button[contains(.,'Aceptar')]
+INFO     utils.Log:mouse.py:21 Se selecciona el elemento //button[contains(.,'Aceptar')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 1 segundos
+INFO     utils.Log:allure_driver.py:14 Se adjuntó la imagen Se pudo seleccionar ingresar en allure
+INFO     utils.Log:image.py:35 Se realiza la captura de pantalla. Se pudo seleccionar ingresar
+INFO     utils.Log:sub.py:141 Se pausa el test por 10 segundos
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento //span[contains(.,'Hola UIC10022  !')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento //span[contains(.,'Hola UIC10022  !')]
+INFO     utils.Log:js.py:45 Se resalta el elemento //span[contains(.,'Hola UIC10022  !')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.1 segundos
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.2 segundos
+INFO     utils.Log:allure_driver.py:14 Se adjuntó la imagen Validar nombre del cajero en allure
+INFO     utils.Log:image.py:35 Se realiza la captura de pantalla. Validar nombre del cajero
+INFO     utils.Log:sub.py:141 Se pausa el test por 5 segundos
+WARNING  utils.Log:search.py:70 No se muestra el elemento //button[contains(@class,'btnMenu') and contains(.,'Consultas')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 1 segundos
+INFO     utils.Log:allure_driver.py:14 Se adjuntó la imagen No se pudo seleccionar menu - consultas en allure
+INFO     utils.Log:image.py:35 Se realiza la captura de pantalla. No se pudo seleccionar menu - consultas
+ERROR    utils.Log:error_management.py:12 No se pudo seleccionar menu - consultas
+INFO     utils.Log:sub.py:141 Se pausa el test por 1 segundos
+INFO     utils.Log:allure_driver.py:14 Se adjuntó la imagen Test Fail en allure
+INFO     utils.Log:image.py:35 Se realiza la captura de pantalla. Test Fail
+ERROR    utils.Log:error_management.py:32 Test Fail
+                                          Traceback (most recent call last):
+                                            File "C:\ITAU_Tools\QA_Automation\workspace\Fram27\src\proyectos\Caja_Homo_suc50\test\SUC_T355.py", line 52, in test_SUC_T355
+                                              self.seleccionarConsultas()
+                                            File "C:\ITAU_Tools\QA_Automation\workspace\Fram27\src\proyectos\Caja_Homo_suc50\st\stAdminInicio.py", line 151, in seleccionarConsultas
+                                              self.fail_msg(msgFail)
+                                            File "C:\ITAU_Tools\QA_Automation\workspace\Fram27\src\error_management.py", line 13, in fail_msg
+                                              raise Exception(description)
+                                          Exception: No se pudo seleccionar menu - consultas

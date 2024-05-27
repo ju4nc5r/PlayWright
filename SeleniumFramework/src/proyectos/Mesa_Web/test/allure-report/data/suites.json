@@ -1,0 +1,28 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "children" : [ {
+      "name" : "Mesa_T007",
+      "children" : [ {
+        "name" : "Mesa_T007",
+        "children" : [ {
+          "name" : "Mesa_Web - Mesa_T007 - compra de acciones",
+          "uid" : "d536b63115c26e76",
+          "parentUid" : "96487e8816ce9906834763b025bc9675",
+          "status" : "passed",
+          "time" : {
+            "start" : 1688652816936,
+            "stop" : 1688652920252,
+            "duration" : 103316
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "96487e8816ce9906834763b025bc9675"
+      } ],
+      "uid" : "c243e3686b9475d1ca6c2d8366eb946f"
+    } ],
+    "uid" : "84e4fb228aa5651a31b5ca4d2bc531de"
+  } ]
+}

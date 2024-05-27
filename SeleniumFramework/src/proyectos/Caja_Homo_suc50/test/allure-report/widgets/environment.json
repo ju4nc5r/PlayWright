@@ -1,0 +1,13 @@
+[ {
+  "values" : [ "Caja_AdminCaja_HOMOLOGACION" ],
+  "name" : "Aplicacion"
+}, {
+  "values" : [ "Homologacion" ],
+  "name" : "Ambiente"
+}, {
+  "values" : [ "IBA9079" ],
+  "name" : "Nodo"
+}, {
+  "values" : [ "Chrome" ],
+  "name" : "Browser"
+} ]

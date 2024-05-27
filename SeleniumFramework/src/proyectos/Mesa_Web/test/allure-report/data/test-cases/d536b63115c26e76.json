@@ -1,0 +1,795 @@
+{
+  "uid" : "d536b63115c26e76",
+  "name" : "Mesa_Web - Mesa_T007 - compra de acciones",
+  "fullName" : "Mesa_T007.Mesa_T007#test_Mesa_T007",
+  "historyId" : "4d0911fcab1a0db08510be1b7f89c5ea",
+  "time" : {
+    "start" : 1688652816936,
+    "stop" : 1688652920252,
+    "duration" : 103316
+  },
+  "description" : "\n1.-Ir a https://waslibhomo.sis.ad.bia.itau/tradingNS/pages/login.xhtml</br>\n2.-Poner Usuario y Contraseña de Red y luego presionar ingresar</br>\n3.-Presionar en la sección perfil sobre el operador asignado</br>\n4.-Elegir perfil OperadorMesaDeDinero y luego presionar \"Cambiar Perfil\"</br>\n5.-Dentro del menú \"Operaciones\" ir a la opción Acciones y realizar click en el submenú \"venta\"</br>\n6.-Realizar búsqueda del cliente por \"Nro cliente\" = 000026 y presionar Buscar</br>\n7.-Seleccionar Nombre/Razón Social= \"Automatización Mesa Web\".</br>\n8.-Presionar siguiente.</br>\n9.-Seleccionar Cuenta custodia 00000000098.</br>\n10.-Ingresar instrumento AGRO (AGROMETAL ORD. 1 VOTO 0) y seleccionarlo del desplegable.</br>\n11.-Presionar siguiente</br>\n12.-Ingresar cantidad 111 y precio debe ser igual al informado en la seccion detalle del instrumento como \"ult. Pcio. Oper\"</br>\n13.-Presionar Venta banco</br>\n14.-Presionar Aceptar</br>\n15.-Presionar Aceptar</br>\n16.-Debe mostrar el número de operación generado y luego Presionar ir a la bandeja</br>\n17.-En la bandeja de ordenes debe aparecer el registro con el nro de operación generado en el paso anterior</br>\n</br>\n    ",
+  "descriptionHtml" : "<p>1.-Ir a https://waslibhomo.sis.ad.bia.itau/tradingNS/pages/login.xhtml</br>\n2.-Poner Usuario y Contraseña de Red y luego presionar ingresar</br>\n3.-Presionar en la sección perfil sobre el operador asignado</br>\n4.-Elegir perfil OperadorMesaDeDinero y luego presionar &quot;Cambiar Perfil&quot;</br>\n5.-Dentro del menú &quot;Operaciones&quot; ir a la opción Acciones y realizar click en el submenú &quot;venta&quot;</br>\n6.-Realizar búsqueda del cliente por &quot;Nro cliente&quot; = 000026 y presionar Buscar</br>\n7.-Seleccionar Nombre/Razón Social= &quot;Automatización Mesa Web&quot;.</br>\n8.-Presionar siguiente.</br>\n9.-Seleccionar Cuenta custodia 00000000098.</br>\n10.-Ingresar instrumento AGRO (AGROMETAL ORD. 1 VOTO 0) y seleccionarlo del desplegable.</br>\n11.-Presionar siguiente</br>\n12.-Ingresar cantidad 111 y precio debe ser igual al informado en la seccion detalle del instrumento como &quot;ult. Pcio. Oper&quot;</br>\n13.-Presionar Venta banco</br>\n14.-Presionar Aceptar</br>\n15.-Presionar Aceptar</br>\n16.-Debe mostrar el número de operación generado y luego Presionar ir a la bandeja</br>\n17.-En la bandeja de ordenes debe aparecer el registro con el nro de operación generado en el paso anterior</br>\n</br></p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_UnitTestCase__pytest_class_setup",
+    "time" : {
+      "start" : 1688652816931,
+      "stop" : 1688652816931,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "PASO 0: Abrir Mesa Web",
+      "time" : {
+        "start" : 1688652816936,
+        "stop" : 1688652823578,
+        "duration" : 6642
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "943b21a0d7303fd5",
+        "name" : "Abrir Mesa Web",
+        "source" : "943b21a0d7303fd5.png",
+        "type" : "image/png",
+        "size" : 30691
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "PASO 1: Completar Usuario",
+      "time" : {
+        "start" : 1688652828132,
+        "stop" : 1688652829756,
+        "duration" : 1624
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9da564d5d2644626",
+        "name" : "Se pudo completar usuario",
+        "source" : "9da564d5d2644626.png",
+        "type" : "image/png",
+        "size" : 31234
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "PASO 2: Completar clave",
+      "time" : {
+        "start" : 1688652829756,
+        "stop" : 1688652831401,
+        "duration" : 1645
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e0b8c96a3cb95252",
+        "name" : "Completar clave",
+        "source" : "e0b8c96a3cb95252.png",
+        "type" : "image/png",
+        "size" : 31407
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "PASO 3: Seleccionar Ingresar",
+      "time" : {
+        "start" : 1688652833412,
+        "stop" : 1688652835960,
+        "duration" : 2548
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1fbf9b40b4d03787",
+        "name" : "Se pudo seleccionar ingresar",
+        "source" : "1fbf9b40b4d03787.png",
+        "type" : "image/png",
+        "size" : 196737
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "PASO 4: Validar Hola,",
+      "time" : {
+        "start" : 1688652835960,
+        "stop" : 1688652838140,
+        "duration" : 2180
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f0f37e80dd726fe4",
+        "name" : "Los textos son diferentes",
+        "source" : "f0f37e80dd726fe4.png",
+        "type" : "image/png",
+        "size" : 196737
+      }, {
+        "uid" : "8b6ffc25f051ae16",
+        "name" : "Se pudo validar hola,",
+        "source" : "8b6ffc25f051ae16.png",
+        "type" : "image/png",
+        "size" : 196756
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "PASO 5: Cambiar perfil",
+      "time" : {
+        "start" : 1688652838140,
+        "stop" : 1688652839989,
+        "duration" : 1849
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6a01d40f9d690e53",
+        "name" : "Se pudo cambiar perfil",
+        "source" : "6a01d40f9d690e53.png",
+        "type" : "image/png",
+        "size" : 58085
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "PASO 6: Seleccionar perfil",
+      "time" : {
+        "start" : 1688652839989,
+        "stop" : 1688652841764,
+        "duration" : 1775
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8c51a55374d50d68",
+        "name" : "Se pudo seleccionar perfil",
+        "source" : "8c51a55374d50d68.png",
+        "type" : "image/png",
+        "size" : 58354
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "PASO 7: Cambiar perfil",
+      "time" : {
+        "start" : 1688652841764,
+        "stop" : 1688652844860,
+        "duration" : 3096
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9fea0adaa82db0ea",
+        "name" : "Se pudo cambiar perfil",
+        "source" : "9fea0adaa82db0ea.png",
+        "type" : "image/png",
+        "size" : 77696
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "PASO 8: Seleccionar Operaciones",
+      "time" : {
+        "start" : 1688652845863,
+        "stop" : 1688652847712,
+        "duration" : 1849
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3b22e55bf579d69c",
+        "name" : "Se pudo seleccionar operaciones",
+        "source" : "3b22e55bf579d69c.png",
+        "type" : "image/png",
+        "size" : 89887
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "PASO 9: Seleccionar Acciones",
+      "time" : {
+        "start" : 1688652847713,
+        "stop" : 1688652849644,
+        "duration" : 1931
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1fc773a45e2e60e6",
+        "name" : "Se pudo seleccionar acciones",
+        "source" : "1fc773a45e2e60e6.png",
+        "type" : "image/png",
+        "size" : 91819
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "PASO 10: Seleccionar compra",
+      "time" : {
+        "start" : 1688652849644,
+        "stop" : 1688652851879,
+        "duration" : 2235
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "81995e83b24e76e1",
+        "name" : "Se pudo seleccionar compra",
+        "source" : "81995e83b24e76e1.png",
+        "type" : "image/png",
+        "size" : 63398
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "PASO 11: abrir tipos de clientes",
+      "time" : {
+        "start" : 1688652851879,
+        "stop" : 1688652853763,
+        "duration" : 1884
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b3e07623a648af32",
+        "name" : "Se pudo abrir tipos de clientes",
+        "source" : "b3e07623a648af32.png",
+        "type" : "image/png",
+        "size" : 62527
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "PASO 12: seleccionar cliente ",
+      "time" : {
+        "start" : 1688652853763,
+        "stop" : 1688652855582,
+        "duration" : 1819
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "972a518a9e2e9547",
+        "name" : "Se pudo seleccionar cliente ",
+        "source" : "972a518a9e2e9547.png",
+        "type" : "image/png",
+        "size" : 62788
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "PASO 13: Completar Nro de cliente",
+      "time" : {
+        "start" : 1688652855582,
+        "stop" : 1688652860699,
+        "duration" : 5117
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ea0b16ae6e76c1e5",
+        "name" : "Completar Nro de cliente",
+        "source" : "ea0b16ae6e76c1e5.png",
+        "type" : "image/png",
+        "size" : 63400
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "PASO 14: buscar cliente",
+      "time" : {
+        "start" : 1688652860699,
+        "stop" : 1688652863014,
+        "duration" : 2315
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "410c2ec1d350f461",
+        "name" : "Se pudo buscar cliente",
+        "source" : "410c2ec1d350f461.png",
+        "type" : "image/png",
+        "size" : 62111
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "PASO 15: Validar cliente",
+      "time" : {
+        "start" : 1688652863014,
+        "stop" : 1688652865320,
+        "duration" : 2306
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f3742c13e8184d3d",
+        "name" : "Los textos son diferentes",
+        "source" : "f3742c13e8184d3d.png",
+        "type" : "image/png",
+        "size" : 62111
+      }, {
+        "uid" : "1ced24efc38287b0",
+        "name" : "Se pudo validar cliente",
+        "source" : "1ced24efc38287b0.png",
+        "type" : "image/png",
+        "size" : 62088
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "PASO 16: Seleccionar nombre razon social",
+      "time" : {
+        "start" : 1688652865320,
+        "stop" : 1688652867906,
+        "duration" : 2586
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f1e71fca862cd554",
+        "name" : "Se pudo seleccionar nombre razon social",
+        "source" : "f1e71fca862cd554.png",
+        "type" : "image/png",
+        "size" : 74885
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "PASO 17: Seleccionar siguiente",
+      "time" : {
+        "start" : 1688652867906,
+        "stop" : 1688652870641,
+        "duration" : 2735
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a117b7aa1734bd",
+        "name" : "Se pudo seleccionar siguiente",
+        "source" : "a117b7aa1734bd.png",
+        "type" : "image/png",
+        "size" : 73044
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "PASO 18: Seleccionar instrumento",
+      "time" : {
+        "start" : 1688652870641,
+        "stop" : 1688652875953,
+        "duration" : 5312
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "be65e87a61de2990",
+        "name" : "Seleccionar instrumento",
+        "source" : "be65e87a61de2990.png",
+        "type" : "image/png",
+        "size" : 74657
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "PASO 19: Seleccionar siguiente",
+      "time" : {
+        "start" : 1688652880966,
+        "stop" : 1688652884027,
+        "duration" : 3061
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "96ad1a045dfdbc95",
+        "name" : "Se pudo seleccionar siguiente",
+        "source" : "96ad1a045dfdbc95.png",
+        "type" : "image/png",
+        "size" : 59439
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "PASO 20: Ingresar precio",
+      "time" : {
+        "start" : 1688652884027,
+        "stop" : 1688652892462,
+        "duration" : 8435
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "PASO 21: Buscar precioo",
+        "time" : {
+          "start" : 1688652884125,
+          "stop" : 1688652887713,
+          "duration" : 3588
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "1789239ba5036892",
+          "name" : "Buscar precioo",
+          "source" : "1789239ba5036892.png",
+          "type" : "image/png",
+          "size" : 59418
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "817c2f912a11a104",
+        "name" : "Se pudo ingresar precio",
+        "source" : "817c2f912a11a104.png",
+        "type" : "image/png",
+        "size" : 60321
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "PASO 22: Ingresar cantidad",
+      "time" : {
+        "start" : 1688652892462,
+        "stop" : 1688652895055,
+        "duration" : 2593
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fea8feb18c69977f",
+        "name" : "Se pudo ingresar cantidad",
+        "source" : "fea8feb18c69977f.png",
+        "type" : "image/png",
+        "size" : 60453
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "PASO 23: Seleccionar boton compra banco",
+      "time" : {
+        "start" : 1688652895055,
+        "stop" : 1688652897631,
+        "duration" : 2576
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "779734d96c06c9b4",
+        "name" : "Se pudo seleccionar boton compra banco",
+        "source" : "779734d96c06c9b4.png",
+        "type" : "image/png",
+        "size" : 67331
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "PASO 24: Seleccionar Boton Orden de venta",
+      "time" : {
+        "start" : 1688652897631,
+        "stop" : 1688652899224,
+        "duration" : 1593
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5c85aa506c109179",
+        "name" : "Se pudo seleccionar boton orden de venta",
+        "source" : "5c85aa506c109179.png",
+        "type" : "image/png",
+        "size" : 54380
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "PASO 25: Seleccionar siguiente",
+      "time" : {
+        "start" : 1688652900233,
+        "stop" : 1688652903001,
+        "duration" : 2768
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b34a5286da9e62ea",
+        "name" : "Se pudo seleccionar siguiente",
+        "source" : "b34a5286da9e62ea.png",
+        "type" : "image/png",
+        "size" : 53635
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "PASO 26: Obtener numero de orden",
+      "time" : {
+        "start" : 1688652905016,
+        "stop" : 1688652907243,
+        "duration" : 2227
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "99acf437aa18b37d",
+        "name" : "Obtener numero de orden",
+        "source" : "99acf437aa18b37d.png",
+        "type" : "image/png",
+        "size" : 53608
+      }, {
+        "uid" : "720d3b631baa5645",
+        "name" : "Se pudo obtener numero de orden",
+        "source" : "720d3b631baa5645.png",
+        "type" : "image/png",
+        "size" : 53635
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "PASO 27: Seleccionar Bandeja",
+      "time" : {
+        "start" : 1688652907243,
+        "stop" : 1688652909489,
+        "duration" : 2246
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "72cc528592d2b517",
+        "name" : "Se pudo seleccionar bandeja",
+        "source" : "72cc528592d2b517.png",
+        "type" : "image/png",
+        "size" : 81012
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "PASO 28: validar numero de orden",
+      "time" : {
+        "start" : 1688652914500,
+        "stop" : 1688652915472,
+        "duration" : 972
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "295afe4a3f21fa09",
+        "name" : "Se pudo validar numero de orden",
+        "source" : "295afe4a3f21fa09.png",
+        "type" : "image/png",
+        "size" : 81012
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "PASO 29: Seleccionar cerrar sesión",
+      "time" : {
+        "start" : 1688652915472,
+        "stop" : 1688652917956,
+        "duration" : 2484
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f0eadeb23c946b35",
+        "name" : "Se pudo seleccionar cerrar sesión",
+        "source" : "f0eadeb23c946b35.png",
+        "type" : "image/png",
+        "size" : 30682
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "744ac043f6471d18",
+      "name" : "log",
+      "source" : "744ac043f6471d18.txt",
+      "type" : "text/plain",
+      "size" : 32550
+    }, {
+      "uid" : "7bc3be2e1c5bdbfd",
+      "name" : "stdout",
+      "source" : "7bc3be2e1c5bdbfd.txt",
+      "type" : "text/plain",
+      "size" : 212
+    }, {
+      "uid" : "13dad3ce8ddc2cf6",
+      "name" : "stderr",
+      "source" : "13dad3ce8ddc2cf6.txt",
+      "type" : "text/plain",
+      "size" : 46130
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 36,
+    "stepsCount" : 30,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_UnitTestCase__pytest_class_setup::0",
+    "time" : {
+      "start" : 1688652920254,
+      "stop" : 1688652920254,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Venta de acciones"
+  }, {
+    "name" : "feature",
+    "value" : "Operaciones"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "parentSuite"
+  }, {
+    "name" : "suite",
+    "value" : "Mesa_T007"
+  }, {
+    "name" : "subSuite",
+    "value" : "Mesa_T007"
+  }, {
+    "name" : "host",
+    "value" : "IBA9079"
+  }, {
+    "name" : "thread",
+    "value" : "2368-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Mesa_T007"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Mesa_Web - Mesa_T007 - compra de acciones",
+    "url" : "Mesa_Web - Mesa_T007 - compra de acciones",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "b8ef6e346352c3e7",
+        "reportUrl" : "http://jenkhl01.sis.ad.bia.itau:8080/jenkins/job/Mesa%20Web_Z_Pruebas/8/allure/#testresult/b8ef6e346352c3e7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1688566832002,
+          "stop" : 1688566915741,
+          "duration" : 83739
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d536b63115c26e76.json",
+  "parameterValues" : [ ]
+}

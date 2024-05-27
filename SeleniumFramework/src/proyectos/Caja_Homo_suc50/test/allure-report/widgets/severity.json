@@ -1,0 +1,111 @@
+[ {
+  "uid" : "f7b2729b0100bd77",
+  "name" : "SUC-T330 - Consultas - Operadores registrados",
+  "time" : {
+    "start" : 1699639506921,
+    "stop" : 1699639546923,
+    "duration" : 40002
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "cb4c6b7305fa58ee",
+  "name" : "SUC-T262 - Terminales - Baja",
+  "time" : {
+    "start" : 1699639450573,
+    "stop" : 1699639503712,
+    "duration" : 53139
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a823f1ceea97963f",
+  "name" : "SUC-T349- Consultas - Tickets",
+  "time" : {
+    "start" : 1699639934946,
+    "stop" : 1699639989664,
+    "duration" : 54718
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "f32c323b649882c6",
+  "name" : "SUC-T345 - Consultas - Pesos",
+  "time" : {
+    "start" : 1699639741994,
+    "stop" : 1699639785917,
+    "duration" : 43923
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "de57731628cc4f58",
+  "name" : "SUC-T353 - Consultas - Dolares",
+  "time" : {
+    "start" : 1699639789107,
+    "stop" : 1699639833512,
+    "duration" : 44405
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "1cee39f0706de346",
+  "name" : "SUC-T343 - consulta de Movimientos de caja - Descargar",
+  "time" : {
+    "start" : 1699639692746,
+    "stop" : 1699639738827,
+    "duration" : 46081
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "26d0d20e08394927",
+  "name" : "SUC-T334 - Consultas - Saldos de caja",
+  "time" : {
+    "start" : 1699639550092,
+    "stop" : 1699639594147,
+    "duration" : 44055
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "4164a9bd8c069ac6",
+  "name" : "SUC-T354 - Consultas - Euros",
+  "time" : {
+    "start" : 1699639836681,
+    "stop" : 1699639883964,
+    "duration" : 47283
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e283ae4d7a19add7",
+  "name" : "SUC-T342 - consulta de Movimientos de caja - Imprimir",
+  "time" : {
+    "start" : 1699639644901,
+    "stop" : 1699639689511,
+    "duration" : 44610
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "70bd853ad095cac6",
+  "name" : "SUC-T335 - Consultas - Saldos de caja - Totales de saldos por sucursal",
+  "time" : {
+    "start" : 1699639597430,
+    "stop" : 1699639641677,
+    "duration" : 44247
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "7dfa4646fff55215",
+  "name" : "SUC-T355 - Consultas - Reales",
+  "time" : {
+    "start" : 1699639887164,
+    "stop" : 1699639931770,
+    "duration" : 44606
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

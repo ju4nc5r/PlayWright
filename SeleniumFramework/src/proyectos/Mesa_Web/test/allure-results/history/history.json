@@ -1,0 +1,181 @@
+{
+  "ad51ef02f72eef76c2ab67ceb8c5630d" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "c5000be726eb1604",
+      "reportUrl" : "http://jenkhl01.sis.ad.bia.itau:8080/jenkins/job/Mesa%20Web_Z_Pruebas/7/allure/#testresult/c5000be726eb1604",
+      "status" : "passed",
+      "time" : {
+        "start" : 1688495677914,
+        "stop" : 1688495765091,
+        "duration" : 87177
+      }
+    }, {
+      "uid" : "5de4e4be2375b522",
+      "reportUrl" : "http://jenkhl01.sis.ad.bia.itau:8080/jenkins/job/Mesa%20Web_Z_Pruebas/6/allure/#testresult/5de4e4be2375b522",
+      "status" : "failed",
+      "statusDetails" : "Failed: Test Fail\nTraceback (most recent call last):\n  File \"C:\\ITAU_Tools\\QA_Automation\\workspace\\Fram27\\src\\proyectos\\Mesa_Web\\test\\Mesa_T005.py\", line 72, in test_Mesa_T005\n    self.ingresar_cantidad(\"111\")\n  File \"C:\\ITAU_Tools\\QA_Automation\\workspace\\Fram27\\src\\proyectos\\Mesa_Web\\st\\stMesaWebOperaciones.py\", line 338, in ingresar_cantidad\n    self.fail_msg(msgFail)\n  File \"C:\\ITAU_Tools\\QA_Automation\\workspace\\Fram27\\src\\error_management.py\", line 13, in fail_msg\n    raise Exception(description)\nException: No se pudo ingresar cantidad",
+      "time" : {
+        "start" : 1688495130658,
+        "stop" : 1688495193666,
+        "duration" : 63008
+      }
+    }, {
+      "uid" : "2274c9335b253b91",
+      "reportUrl" : "http://jenkhl01.sis.ad.bia.itau:8080/jenkins/job/Mesa%20Web_Z_Pruebas/3/allure/#testresult/2274c9335b253b91",
+      "status" : "failed",
+      "statusDetails" : "Failed: Test Fail\nTraceback (most recent call last):\n  File \"C:\\ITAU_Tools\\QA_Automation\\workspace\\Fram27\\src\\proyectos\\Mesa_Web\\test\\Mesa_T005.py\", line 72, in test_Mesa_T005\n    self.ingresar_cantidad(\"111\")\n  File \"C:\\ITAU_Tools\\QA_Automation\\workspace\\Fram27\\src\\proyectos\\Mesa_Web\\st\\stMesaWebOperaciones.py\", line 338, in ingresar_cantidad\n    self.fail_msg(msgFail)\n  File \"C:\\ITAU_Tools\\QA_Automation\\workspace\\Fram27\\src\\error_management.py\", line 13, in fail_msg\n    raise Exception(description)\nException: No se pudo ingresar cantidad",
+      "time" : {
+        "start" : 1688494624308,
+        "stop" : 1688494691420,
+        "duration" : 67112
+      }
+    } ]
+  },
+  "7e3bb87a0df9bb874c4a6a63a2f46bcf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4e6227eb29cf8654",
+      "reportUrl" : "http://jenkhl01.sis.ad.bia.itau:8080/jenkins/job/Mesa%20Web_Z_Pruebas/3/allure/#testresult/4e6227eb29cf8654",
+      "status" : "passed",
+      "time" : {
+        "start" : 1688494695865,
+        "stop" : 1688494736936,
+        "duration" : 41071
+      }
+    } ]
+  },
+  "d70242235ad80c488acd134497a9e77b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2535658750af43b0",
+      "reportUrl" : "http://jenkhl01.sis.ad.bia.itau:8080/jenkins/job/Mesa%20Web_Z_Pruebas/3/allure/#testresult/2535658750af43b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1688494490134,
+        "stop" : 1688494579321,
+        "duration" : 89187
+      }
+    } ]
+  },
+  "4d0911fcab1a0db08510be1b7f89c5ea" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b8ef6e346352c3e7",
+      "reportUrl" : "http://jenkhl01.sis.ad.bia.itau:8080/jenkins/job/Mesa%20Web_Z_Pruebas/8/allure/#testresult/b8ef6e346352c3e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1688566832002,
+        "stop" : 1688566915741,
+        "duration" : 83739
+      }
+    } ]
+  },
+  "17eb7f19f5c43df4a04a6d21366215f0" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "4e35caa770aea055",
+      "reportUrl" : "http://jenkhl01.sis.ad.bia.itau:8080/jenkins/job/Mesa%20Web_Z_Pruebas/7/allure/#testresult/4e35caa770aea055",
+      "status" : "passed",
+      "time" : {
+        "start" : 1688495766348,
+        "stop" : 1688495856396,
+        "duration" : 90048
+      }
+    }, {
+      "uid" : "a8c01f132a049239",
+      "reportUrl" : "http://jenkhl01.sis.ad.bia.itau:8080/jenkins/job/Mesa%20Web_Z_Pruebas/6/allure/#testresult/a8c01f132a049239",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'Mesa_T006' object has no attribute 'driver'",
+      "time" : {
+        "start" : 1688495198277,
+        "stop" : 1688495203304,
+        "duration" : 5027
+      }
+    }, {
+      "uid" : "38e43806cd8d8235",
+      "reportUrl" : "http://jenkhl01.sis.ad.bia.itau:8080/jenkins/job/Mesa%20Web_Z_Pruebas/3/allure/#testresult/38e43806cd8d8235",
+      "status" : "failed",
+      "statusDetails" : "Failed: Test Fail\nTraceback (most recent call last):\n  File \"C:\\ITAU_Tools\\QA_Automation\\workspace\\Fram27\\src\\proyectos\\Mesa_Web\\test\\Mesa_T006.py\", line 72, in test_Mesa_T006\n    self.ingresar_cantidad(self.cantidad)\n  File \"C:\\ITAU_Tools\\QA_Automation\\workspace\\Fram27\\src\\proyectos\\Mesa_Web\\st\\stMesaWebOperaciones.py\", line 338, in ingresar_cantidad\n    self.fail_msg(msgFail)\n  File \"C:\\ITAU_Tools\\QA_Automation\\workspace\\Fram27\\src\\error_management.py\", line 13, in fail_msg\n    raise Exception(description)\nException: No se pudo ingresar cantidad",
+      "time" : {
+        "start" : 1688494738340,
+        "stop" : 1688494801255,
+        "duration" : 62915
+      }
+    } ]
+  },
+  "90f35ca795b02e36666df13685d27b9e" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "7e74a7c5ef7cad1e",
+      "reportUrl" : "http://jenkhl01.sis.ad.bia.itau:8080/jenkins/job/Mesa%20Web_Z_Pruebas/3/allure/#testresult/7e74a7c5ef7cad1e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1688494580562,
+        "stop" : 1688494623155,
+        "duration" : 42593
+      }
+    }, {
+      "uid" : "8bd765fac0c5771e",
+      "reportUrl" : "http://jenkhl01.sis.ad.bia.itau:8080/jenkins/job/Mesa%20Web_Z_Pruebas/2/allure/#testresult/8bd765fac0c5771e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1688061536584,
+        "stop" : 1688061579373,
+        "duration" : 42789
+      }
+    }, {
+      "uid" : "37f699af48699241",
+      "reportUrl" : "http://jenkhl01.sis.ad.bia.itau:8080/jenkins/job/Mesa%20Web_Z_Pruebas/1/allure/#testresult/37f699af48699241",
+      "status" : "failed",
+      "statusDetails" : "Failed: Test Fail\nTraceback (most recent call last):\n  File \"C:\\ITAU_Tools\\QA_Automation\\workspace\\Fram27\\src\\proyectos\\Mesa_Web\\test\\Mesa_T003.py\", line 57, in test_Mesa_T003\n    self.seleccionar_btn_slc_archivo()\n  File \"C:\\ITAU_Tools\\QA_Automation\\workspace\\Fram27\\src\\proyectos\\Mesa_Web\\st\\stMesaWebPrecios.py\", line 92, in seleccionar_btn_slc_archivo\n    self.selectElement(xpath, msgOk, msgFail, to)\n  File \"C:\\ITAU_Tools\\QA_Automation\\workspace\\Fram27\\src\\mouse.py\", line 20, in selectElement\n    self.select(xpath, to)\n  File \"C:\\ITAU_Tools\\QA_Automation\\workspace\\Fram27\\src\\mouse.py\", line 14, in select\n    self.search_element_by_xpath(xpath).click()\n  File \"C:\\ITAU_Tools\\QA_Automation\\Python37\\lib\\site-packages\\selenium\\webdriver\\remote\\webelement.py\", line 80, in click\n    self._execute(Command.CLICK_ELEMENT)\n  File \"C:\\ITAU_Tools\\QA_Automation\\Python37\\lib\\site-packages\\selenium\\webdriver\\remote\\webelement.py\", line 633, in _execute\n    return self._parent.execute(command, params)\n  File \"C:\\ITAU_Tools\\QA_Automation\\Python37\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 321, in execute\n    self.error_handler.check_response(response)\n  File \"C:\\ITAU_Tools\\QA_Automation\\Python37\\lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py\", line 242, in check_response\n    raise exception_class(message, screen, stacktrace)\nselenium.common.exceptions.InvalidArgumentException: Message: invalid argument\n  (Session info: chrome=114.0.5735.199)",
+      "time" : {
+        "start" : 1688057402906,
+        "stop" : 1688057435378,
+        "duration" : 32472
+      }
+    } ]
+  }
+}

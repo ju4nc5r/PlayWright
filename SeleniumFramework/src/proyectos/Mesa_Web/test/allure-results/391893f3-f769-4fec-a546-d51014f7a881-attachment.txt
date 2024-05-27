@@ -1,0 +1,346 @@
+INFO     utils.Log:log.py:31 El log se crea en C:/ITAU_Tools/evidencias/homologacion\Mesa_Web\screenshots\2023-07-06\Mesa_T007\111336\\Mesa_T007.log
+INFO     utils.Log:browser.py:23 Se inicializa Chrome
+INFO     utils.Log:sub.py:141 Se pausa el test por 1 segundos
+INFO     utils.Log:allure_driver.py:14 Se adjuntó la imagen Abrir Mesa Web en allure
+INFO     utils.Log:image.py:35 Se realiza la captura de pantalla. Abrir Mesa Web
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento //input[contains(@name,'loginForm:inputUser')]
+INFO     utils.Log:search.py:27 Se busca elemento con parametro xpath y valor //input[contains(@name,'loginForm:inputUser')]
+INFO     utils.Log:keyboard.py:113 Se borra el contenido del elemento {}
+INFO     utils.Log:search.py:27 Se busca elemento con parametro xpath y valor //input[contains(@name,'loginForm:inputUser')]
+INFO     utils.Log:keyboard.py:86 Se va a tipear "srv_homo" en //input[contains(@name,'loginForm:inputUser')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 1 segundos
+INFO     utils.Log:allure_driver.py:14 Se adjuntó la imagen Se pudo completar usuario en allure
+INFO     utils.Log:image.py:35 Se realiza la captura de pantalla. Se pudo completar usuario
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento //input[contains(@type,'password')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento //input[contains(@type,'password')]
+INFO     utils.Log:search.py:27 Se busca elemento con parametro xpath y valor //input[contains(@type,'password')]
+INFO     utils.Log:keyboard.py:113 Se borra el contenido del elemento {}
+INFO     utils.Log:search.py:27 Se busca elemento con parametro xpath y valor //input[contains(@type,'password')]
+INFO     utils.Log:keyboard.py:86 Se va a tipear "Wjsow2JwosAa#$" en //input[contains(@type,'password')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 1 segundos
+INFO     utils.Log:allure_driver.py:14 Se adjuntó la imagen Completar clave en allure
+INFO     utils.Log:image.py:35 Se realiza la captura de pantalla. Completar clave
+INFO     utils.Log:sub.py:141 Se pausa el test por 2 segundos
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento //input[contains(@name,'loginForm:acceptButton')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento //input[contains(@name,'loginForm:acceptButton')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:27 Se busca elemento con parametro xpath y valor //input[contains(@name,'loginForm:acceptButton')]
+INFO     utils.Log:mouse.py:21 Se selecciona el elemento //input[contains(@name,'loginForm:acceptButton')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 1 segundos
+INFO     utils.Log:allure_driver.py:14 Se adjuntó la imagen Se pudo seleccionar ingresar en allure
+INFO     utils.Log:image.py:35 Se realiza la captura de pantalla. Se pudo seleccionar ingresar
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento //span[contains(.,'Hola ')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento //span[contains(.,'Hola ')]
+INFO     utils.Log:webelement.py:34 Se obtine el texto Hola SRV_HOMO Homo (SRV_HOMO), del elemento //span[contains(.,'Hola ')]
+ERROR    utils.Log:sub.py:158 Valor esperado Hola,, valor encontrado Hola SRV_HOMO Homo (SRV_HOMO)
+INFO     utils.Log:sub.py:141 Se pausa el test por 1 segundos
+INFO     utils.Log:allure_driver.py:14 Se adjuntó la imagen Los textos son diferentes en allure
+INFO     utils.Log:image.py:35 Se realiza la captura de pantalla. Los textos son diferentes
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento //span[contains(.,'Hola ')]
+INFO     utils.Log:js.py:44 Se resalta el elemento //span[contains(.,'Hola ')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.1 segundos
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.2 segundos
+INFO     utils.Log:allure_driver.py:14 Se adjuntó la imagen Se pudo validar hola, en allure
+INFO     utils.Log:image.py:35 Se realiza la captura de pantalla. Se pudo validar hola,
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento //a[contains(@title,'Seleccionar otro Perfil')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento //a[contains(@title,'Seleccionar otro Perfil')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:27 Se busca elemento con parametro xpath y valor //a[contains(@title,'Seleccionar otro Perfil')]
+INFO     utils.Log:mouse.py:21 Se selecciona el elemento //a[contains(@title,'Seleccionar otro Perfil')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 1 segundos
+INFO     utils.Log:allure_driver.py:14 Se adjuntó la imagen Se pudo cambiar perfil en allure
+INFO     utils.Log:image.py:35 Se realiza la captura de pantalla. Se pudo cambiar perfil
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento //label[@for='j_id_38:9'][contains(.,'OperadorMesaDinero')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento //label[@for='j_id_38:9'][contains(.,'OperadorMesaDinero')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:27 Se busca elemento con parametro xpath y valor //label[@for='j_id_38:9'][contains(.,'OperadorMesaDinero')]
+INFO     utils.Log:mouse.py:21 Se selecciona el elemento //label[@for='j_id_38:9'][contains(.,'OperadorMesaDinero')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 1 segundos
+INFO     utils.Log:allure_driver.py:14 Se adjuntó la imagen Se pudo seleccionar perfil en allure
+INFO     utils.Log:image.py:35 Se realiza la captura de pantalla. Se pudo seleccionar perfil
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento //input[contains(@name,'switchButton')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento //input[contains(@name,'switchButton')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:27 Se busca elemento con parametro xpath y valor //input[contains(@name,'switchButton')]
+INFO     utils.Log:mouse.py:21 Se selecciona el elemento //input[contains(@name,'switchButton')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 1 segundos
+INFO     utils.Log:allure_driver.py:14 Se adjuntó la imagen Se pudo cambiar perfil en allure
+INFO     utils.Log:image.py:35 Se realiza la captura de pantalla. Se pudo cambiar perfil
+INFO     utils.Log:sub.py:141 Se pausa el test por 1 segundos
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento //a[@onclick='return false;'][contains(.,'Operaciones')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento //a[@onclick='return false;'][contains(.,'Operaciones')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:27 Se busca elemento con parametro xpath y valor //a[@onclick='return false;'][contains(.,'Operaciones')]
+INFO     utils.Log:mouse.py:21 Se selecciona el elemento //a[@onclick='return false;'][contains(.,'Operaciones')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 1 segundos
+INFO     utils.Log:allure_driver.py:14 Se adjuntó la imagen Se pudo seleccionar operaciones en allure
+INFO     utils.Log:image.py:35 Se realiza la captura de pantalla. Se pudo seleccionar operaciones
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento //a[@onclick='return false;'][contains(.,'Acciones')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento //a[@onclick='return false;'][contains(.,'Acciones')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:27 Se busca elemento con parametro xpath y valor //a[@onclick='return false;'][contains(.,'Acciones')]
+INFO     utils.Log:mouse.py:21 Se selecciona el elemento //a[@onclick='return false;'][contains(.,'Acciones')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 1 segundos
+INFO     utils.Log:allure_driver.py:14 Se adjuntó la imagen Se pudo seleccionar acciones en allure
+INFO     utils.Log:image.py:35 Se realiza la captura de pantalla. Se pudo seleccionar acciones
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento //a[@href='/tradingNS/pages/mesa/mainMesa.xhtml?op=COMPRA&ti=ACCION'][contains(.,'Compra')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento //a[@href='/tradingNS/pages/mesa/mainMesa.xhtml?op=COMPRA&ti=ACCION'][contains(.,'Compra')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:27 Se busca elemento con parametro xpath y valor //a[@href='/tradingNS/pages/mesa/mainMesa.xhtml?op=COMPRA&ti=ACCION'][contains(.,'Compra')]
+INFO     utils.Log:mouse.py:21 Se selecciona el elemento //a[@href='/tradingNS/pages/mesa/mainMesa.xhtml?op=COMPRA&ti=ACCION'][contains(.,'Compra')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 1 segundos
+INFO     utils.Log:allure_driver.py:14 Se adjuntó la imagen Se pudo seleccionar compra en allure
+INFO     utils.Log:image.py:35 Se realiza la captura de pantalla. Se pudo seleccionar compra
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento //select[contains(@name,'formCliente:j_id_38')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento //select[contains(@name,'formCliente:j_id_38')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:27 Se busca elemento con parametro xpath y valor //select[contains(@name,'formCliente:j_id_38')]
+INFO     utils.Log:mouse.py:21 Se selecciona el elemento //select[contains(@name,'formCliente:j_id_38')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 1 segundos
+INFO     utils.Log:allure_driver.py:14 Se adjuntó la imagen Se pudo abrir tipos de clientes en allure
+INFO     utils.Log:image.py:35 Se realiza la captura de pantalla. Se pudo abrir tipos de clientes
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento //option[@value='NRO_CLI'][contains(.,'Nro. Cliente')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento //option[@value='NRO_CLI'][contains(.,'Nro. Cliente')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:27 Se busca elemento con parametro xpath y valor //option[@value='NRO_CLI'][contains(.,'Nro. Cliente')]
+INFO     utils.Log:mouse.py:21 Se selecciona el elemento //option[@value='NRO_CLI'][contains(.,'Nro. Cliente')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 1 segundos
+INFO     utils.Log:allure_driver.py:14 Se adjuntó la imagen Se pudo seleccionar cliente  en allure
+INFO     utils.Log:image.py:35 Se realiza la captura de pantalla. Se pudo seleccionar cliente 
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento //input[@type='text']
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento //input[@type='text']
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:27 Se busca elemento con parametro xpath y valor //input[@type='text']
+INFO     utils.Log:mouse.py:21 Se selecciona el elemento //input[@type='text']
+INFO     utils.Log:sub.py:141 Se pausa el test por 2 segundos
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento //input[@type='text']
+INFO     utils.Log:search.py:27 Se busca elemento con parametro xpath y valor //input[@type='text']
+INFO     utils.Log:keyboard.py:113 Se borra el contenido del elemento {}
+INFO     utils.Log:search.py:27 Se busca elemento con parametro xpath y valor //input[@type='text']
+INFO     utils.Log:keyboard.py:86 Se va a tipear "000026" en //input[@type='text']
+INFO     utils.Log:sub.py:141 Se pausa el test por 1 segundos
+INFO     utils.Log:sub.py:141 Se pausa el test por 1 segundos
+INFO     utils.Log:allure_driver.py:14 Se adjuntó la imagen Completar Nro de cliente en allure
+INFO     utils.Log:image.py:35 Se realiza la captura de pantalla. Completar Nro de cliente
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento //input[contains(@name,'formCliente:applyFiltersButton')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento //input[contains(@name,'formCliente:applyFiltersButton')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:27 Se busca elemento con parametro xpath y valor //input[contains(@name,'formCliente:applyFiltersButton')]
+INFO     utils.Log:mouse.py:21 Se selecciona el elemento //input[contains(@name,'formCliente:applyFiltersButton')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 1 segundos
+INFO     utils.Log:allure_driver.py:14 Se adjuntó la imagen Se pudo buscar cliente en allure
+INFO     utils.Log:image.py:35 Se realiza la captura de pantalla. Se pudo buscar cliente
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento (//td[contains(.,'AUTOMATIZACIÓN MESA WEB')])[2]
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento (//td[contains(.,'AUTOMATIZACIÓN MESA WEB')])[2]
+INFO     utils.Log:webelement.py:34 Se obtine el texto AUTOMATIZACIÓN MESA WEB, del elemento (//td[contains(.,'AUTOMATIZACIÓN MESA WEB')])[2]
+ERROR    utils.Log:sub.py:158 Valor esperado Mensaje_Esperado, valor encontrado AUTOMATIZACIÓN MESA WEB
+INFO     utils.Log:sub.py:141 Se pausa el test por 1 segundos
+INFO     utils.Log:allure_driver.py:14 Se adjuntó la imagen Los textos son diferentes en allure
+INFO     utils.Log:image.py:35 Se realiza la captura de pantalla. Los textos son diferentes
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento (//td[contains(.,'AUTOMATIZACIÓN MESA WEB')])[2]
+INFO     utils.Log:js.py:44 Se resalta el elemento (//td[contains(.,'AUTOMATIZACIÓN MESA WEB')])[2]
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.1 segundos
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.2 segundos
+INFO     utils.Log:allure_driver.py:14 Se adjuntó la imagen Se pudo validar cliente en allure
+INFO     utils.Log:image.py:35 Se realiza la captura de pantalla. Se pudo validar cliente
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento //input[contains(@name,'j_id_ln:j_id_lq:0:j_id_m8')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento //input[contains(@name,'j_id_ln:j_id_lq:0:j_id_m8')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:27 Se busca elemento con parametro xpath y valor //input[contains(@name,'j_id_ln:j_id_lq:0:j_id_m8')]
+INFO     utils.Log:mouse.py:21 Se selecciona el elemento //input[contains(@name,'j_id_ln:j_id_lq:0:j_id_m8')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 1 segundos
+INFO     utils.Log:allure_driver.py:14 Se adjuntó la imagen Se pudo seleccionar nombre razon social en allure
+INFO     utils.Log:image.py:35 Se realiza la captura de pantalla. Se pudo seleccionar nombre razon social
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento //input[contains(@value,'Siguiente')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento //input[contains(@value,'Siguiente')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:27 Se busca elemento con parametro xpath y valor //input[contains(@value,'Siguiente')]
+INFO     utils.Log:mouse.py:21 Se selecciona el elemento //input[contains(@value,'Siguiente')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 1 segundos
+INFO     utils.Log:allure_driver.py:14 Se adjuntó la imagen Se pudo seleccionar siguiente en allure
+INFO     utils.Log:image.py:35 Se realiza la captura de pantalla. Se pudo seleccionar siguiente
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento /html[1]/body[1]/div[1]/div[2]/table[1]/tbody[1]/tr[3]/td[1]/form[1]/span[1]/table[1]/tbody[1]/tr[1]/td[1]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/span[1]/div[1]/div[1]/input[1]
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento /html[1]/body[1]/div[1]/div[2]/table[1]/tbody[1]/tr[3]/td[1]/form[1]/span[1]/table[1]/tbody[1]/tr[1]/td[1]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/span[1]/div[1]/div[1]/input[1]
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:27 Se busca elemento con parametro xpath y valor /html[1]/body[1]/div[1]/div[2]/table[1]/tbody[1]/tr[3]/td[1]/form[1]/span[1]/table[1]/tbody[1]/tr[1]/td[1]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/span[1]/div[1]/div[1]/input[1]
+INFO     utils.Log:mouse.py:21 Se selecciona el elemento /html[1]/body[1]/div[1]/div[2]/table[1]/tbody[1]/tr[3]/td[1]/form[1]/span[1]/table[1]/tbody[1]/tr[1]/td[1]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/span[1]/div[1]/div[1]/input[1]
+INFO     utils.Log:sub.py:141 Se pausa el test por 2 segundos
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento /html[1]/body[1]/div[1]/div[2]/table[1]/tbody[1]/tr[3]/td[1]/form[1]/span[1]/table[1]/tbody[1]/tr[1]/td[1]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/span[1]/div[1]/div[1]/input[1]
+INFO     utils.Log:search.py:27 Se busca elemento con parametro xpath y valor /html[1]/body[1]/div[1]/div[2]/table[1]/tbody[1]/tr[3]/td[1]/form[1]/span[1]/table[1]/tbody[1]/tr[1]/td[1]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/span[1]/div[1]/div[1]/input[1]
+INFO     utils.Log:keyboard.py:113 Se borra el contenido del elemento {}
+INFO     utils.Log:search.py:27 Se busca elemento con parametro xpath y valor /html[1]/body[1]/div[1]/div[2]/table[1]/tbody[1]/tr[3]/td[1]/form[1]/span[1]/table[1]/tbody[1]/tr[1]/td[1]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/span[1]/div[1]/div[1]/input[1]
+INFO     utils.Log:keyboard.py:86 Se va a tipear "AGRO" en /html[1]/body[1]/div[1]/div[2]/table[1]/tbody[1]/tr[3]/td[1]/form[1]/span[1]/table[1]/tbody[1]/tr[1]/td[1]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/span[1]/div[1]/div[1]/input[1]
+INFO     utils.Log:sub.py:141 Se pausa el test por 1 segundos
+INFO     utils.Log:search.py:27 Se busca elemento con parametro xpath y valor /html[1]/body[1]/div[1]/div[2]/table[1]/tbody[1]/tr[3]/td[1]/form[1]/span[1]/table[1]/tbody[1]/tr[1]/td[1]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/span[1]/div[1]/div[1]/input[1]
+INFO     utils.Log:keyboard.py:15 Se ingresa la tecla down en el elemento /html[1]/body[1]/div[1]/div[2]/table[1]/tbody[1]/tr[3]/td[1]/form[1]/span[1]/table[1]/tbody[1]/tr[1]/td[1]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/span[1]/div[1]/div[1]/input[1]
+INFO     utils.Log:search.py:27 Se busca elemento con parametro xpath y valor /html[1]/body[1]/div[1]/div[2]/table[1]/tbody[1]/tr[3]/td[1]/form[1]/span[1]/table[1]/tbody[1]/tr[1]/td[1]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/span[1]/div[1]/div[1]/input[1]
+INFO     utils.Log:keyboard.py:15 Se ingresa la tecla enter en el elemento /html[1]/body[1]/div[1]/div[2]/table[1]/tbody[1]/tr[3]/td[1]/form[1]/span[1]/table[1]/tbody[1]/tr[1]/td[1]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/span[1]/div[1]/div[1]/input[1]
+INFO     utils.Log:sub.py:141 Se pausa el test por 1 segundos
+INFO     utils.Log:allure_driver.py:14 Se adjuntó la imagen Seleccionar instrumento en allure
+INFO     utils.Log:image.py:35 Se realiza la captura de pantalla. Seleccionar instrumento
+INFO     utils.Log:sub.py:141 Se pausa el test por 5 segundos
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento //input[contains(@value,'Siguiente')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento //input[contains(@value,'Siguiente')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:27 Se busca elemento con parametro xpath y valor //input[contains(@value,'Siguiente')]
+INFO     utils.Log:mouse.py:21 Se selecciona el elemento //input[contains(@value,'Siguiente')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 1 segundos
+INFO     utils.Log:allure_driver.py:14 Se adjuntó la imagen Se pudo seleccionar siguiente en allure
+INFO     utils.Log:image.py:35 Se realiza la captura de pantalla. Se pudo seleccionar siguiente
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento //input[contains(@name,'formPreOrden:inputPrecio')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento (//td[contains(.,'Ult. Pcio. Oper.$')])[3]
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento (//td[contains(.,'Ult. Pcio. Oper.$')])[3]
+INFO     utils.Log:webelement.py:34 Se obtine el texto Ult. Pcio. Oper.
+                                    $ 89,000000, del elemento (//td[contains(.,'Ult. Pcio. Oper.$')])[3]
+INFO     utils.Log:sub.py:141 Se pausa el test por 2 segundos
+INFO     utils.Log:sub.py:141 Se pausa el test por 1 segundos
+INFO     utils.Log:allure_driver.py:14 Se adjuntó la imagen Buscar precioo en allure
+INFO     utils.Log:image.py:35 Se realiza la captura de pantalla. Buscar precioo
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento //input[contains(@name,'formPreOrden:inputPrecio')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:27 Se busca elemento con parametro xpath y valor //input[contains(@name,'formPreOrden:inputPrecio')]
+INFO     utils.Log:mouse.py:21 Se selecciona el elemento //input[contains(@name,'formPreOrden:inputPrecio')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 2 segundos
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento //input[contains(@name,'formPreOrden:inputPrecio')]
+INFO     utils.Log:search.py:27 Se busca elemento con parametro xpath y valor //input[contains(@name,'formPreOrden:inputPrecio')]
+INFO     utils.Log:keyboard.py:113 Se borra el contenido del elemento {}
+INFO     utils.Log:search.py:27 Se busca elemento con parametro xpath y valor //input[contains(@name,'formPreOrden:inputPrecio')]
+INFO     utils.Log:keyboard.py:86 Se va a tipear "89.000000" en //input[contains(@name,'formPreOrden:inputPrecio')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 1 segundos
+INFO     utils.Log:sub.py:141 Se pausa el test por 1 segundos
+INFO     utils.Log:allure_driver.py:14 Se adjuntó la imagen Se pudo ingresar precio en allure
+INFO     utils.Log:image.py:35 Se realiza la captura de pantalla. Se pudo ingresar precio
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento //input[contains(@name,'formPreOrden:inputCantidad')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento //input[contains(@name,'formPreOrden:inputCantidad')]
+INFO     utils.Log:search.py:27 Se busca elemento con parametro xpath y valor //input[contains(@name,'formPreOrden:inputCantidad')]
+INFO     utils.Log:keyboard.py:113 Se borra el contenido del elemento {}
+INFO     utils.Log:search.py:27 Se busca elemento con parametro xpath y valor //input[contains(@name,'formPreOrden:inputCantidad')]
+INFO     utils.Log:keyboard.py:86 Se va a tipear "111" en //input[contains(@name,'formPreOrden:inputCantidad')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 1 segundos
+INFO     utils.Log:sub.py:141 Se pausa el test por 1 segundos
+INFO     utils.Log:allure_driver.py:14 Se adjuntó la imagen Se pudo ingresar cantidad en allure
+INFO     utils.Log:image.py:35 Se realiza la captura de pantalla. Se pudo ingresar cantidad
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento //input[contains(@name,'formPreOrden:btnCompraBanco')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento //input[contains(@name,'formPreOrden:btnCompraBanco')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:27 Se busca elemento con parametro xpath y valor //input[contains(@name,'formPreOrden:btnCompraBanco')]
+INFO     utils.Log:mouse.py:21 Se selecciona el elemento //input[contains(@name,'formPreOrden:btnCompraBanco')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 1 segundos
+INFO     utils.Log:allure_driver.py:14 Se adjuntó la imagen Se pudo seleccionar boton compra banco en allure
+INFO     utils.Log:image.py:35 Se realiza la captura de pantalla. Se pudo seleccionar boton compra banco
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento //input[contains(@name,'formOrden:j_id_ft:j_id_fz')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento //input[contains(@name,'formOrden:j_id_ft:j_id_fz')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:27 Se busca elemento con parametro xpath y valor //input[contains(@name,'formOrden:j_id_ft:j_id_fz')]
+INFO     utils.Log:mouse.py:21 Se selecciona el elemento //input[contains(@name,'formOrden:j_id_ft:j_id_fz')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 1 segundos
+INFO     utils.Log:allure_driver.py:14 Se adjuntó la imagen Se pudo seleccionar boton orden de venta en allure
+INFO     utils.Log:image.py:35 Se realiza la captura de pantalla. Se pudo seleccionar boton orden de venta
+INFO     utils.Log:sub.py:141 Se pausa el test por 1 segundos
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento //span[contains(.,'Aceptar')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento //span[contains(.,'Aceptar')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:27 Se busca elemento con parametro xpath y valor //span[contains(.,'Aceptar')]
+INFO     utils.Log:mouse.py:21 Se selecciona el elemento //span[contains(.,'Aceptar')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 1 segundos
+INFO     utils.Log:allure_driver.py:14 Se adjuntó la imagen Se pudo seleccionar siguiente en allure
+INFO     utils.Log:image.py:35 Se realiza la captura de pantalla. Se pudo seleccionar siguiente
+INFO     utils.Log:sub.py:141 Se pausa el test por 2 segundos
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento /html[1]/body[1]/div[1]/div[2]/form[1]/table[1]/tbody[1]/tr[1]/td[1]/span[1]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/div[1]/div[1]/span[1]
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento /html[1]/body[1]/div[1]/div[2]/form[1]/table[1]/tbody[1]/tr[1]/td[1]/span[1]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/div[1]/div[1]/span[1]
+INFO     utils.Log:js.py:44 Se resalta el elemento /html[1]/body[1]/div[1]/div[2]/form[1]/table[1]/tbody[1]/tr[1]/td[1]/span[1]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/div[1]/div[1]/span[1]
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.1 segundos
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.2 segundos
+INFO     utils.Log:allure_driver.py:14 Se adjuntó la imagen Obtener numero de orden en allure
+INFO     utils.Log:image.py:35 Se realiza la captura de pantalla. Obtener numero de orden
+INFO     utils.Log:sub.py:141 Se pausa el test por 1 segundos
+INFO     utils.Log:allure_driver.py:14 Se adjuntó la imagen Se pudo obtener numero de orden en allure
+INFO     utils.Log:image.py:35 Se realiza la captura de pantalla. Se pudo obtener numero de orden
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento /html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[3]/form[1]/ul[1]/li[1]/a[1]
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento /html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[3]/form[1]/ul[1]/li[1]/a[1]
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:27 Se busca elemento con parametro xpath y valor /html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[3]/form[1]/ul[1]/li[1]/a[1]
+INFO     utils.Log:mouse.py:21 Se selecciona el elemento /html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[3]/form[1]/ul[1]/li[1]/a[1]
+INFO     utils.Log:sub.py:141 Se pausa el test por 1 segundos
+INFO     utils.Log:allure_driver.py:14 Se adjuntó la imagen Se pudo seleccionar bandeja en allure
+INFO     utils.Log:image.py:35 Se realiza la captura de pantalla. Se pudo seleccionar bandeja
+INFO     utils.Log:sub.py:141 Se pausa el test por 5 segundos
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento //tbody[@role='alert'][contains(.,'50104829')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento //tbody[@role='alert'][contains(.,'50104829')]
+INFO     utils.Log:js.py:44 Se resalta el elemento //tbody[@role='alert'][contains(.,'50104829')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.1 segundos
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.2 segundos
+INFO     utils.Log:allure_driver.py:14 Se adjuntó la imagen Se pudo validar numero de orden en allure
+INFO     utils.Log:image.py:35 Se realiza la captura de pantalla. Se pudo validar numero de orden
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento //i[contains(@class,'fa fa-power-off')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:72 Se encontró el elemento //i[contains(@class,'fa fa-power-off')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 0.01 segundos
+INFO     utils.Log:search.py:27 Se busca elemento con parametro xpath y valor //i[contains(@class,'fa fa-power-off')]
+INFO     utils.Log:mouse.py:21 Se selecciona el elemento //i[contains(@class,'fa fa-power-off')]
+INFO     utils.Log:sub.py:141 Se pausa el test por 1 segundos
+INFO     utils.Log:allure_driver.py:14 Se adjuntó la imagen Se pudo seleccionar cerrar sesión en allure
+INFO     utils.Log:image.py:35 Se realiza la captura de pantalla. Se pudo seleccionar cerrar sesión
+INFO     utils.Log:error_management.py:36 Test OK
+INFO     utils.Log:browser.py:207 Se cierra el navegador

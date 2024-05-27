@@ -1,0 +1,28 @@
+# -*- coding: utf-8 -*-
+class plAutorizInicio():
+   
+   #############################################LOGIN######################################################################### 
+    ipt_usuario = "//input[contains(@formcontrolname,'loginLegajo')]"
+    ipt_terminal = "//input[contains(@formcontrolname,'loginTerminal')]"
+    ipt_clave = "//input[contains(@formcontrolname,'loginPassword')]"
+    btn_aceptar = "//button[contains(.,'Aceptar')]"
+    btn_aceptar_msg = "//button[@class='btnYes'][contains(.,'Aceptar')]"
+    msg_error = "//div[@class='mat-dialog-content'][contains(.,'Error: Ocurrio un error al obtener la terminal del usuario')]"
+    msj_error = "//app-error-dialog//div[contains(@class,'header')]"
+    btn_salir = "//button[contains(.,'Salir')]"
+#     chk_autorizar_linea1 = "/html[1]/body[1]/app-root[1]/div[1]/app-administracion-autorizacion[1]/it-page-frame[1]/it-page-content[1]/div[2]/div[1]/table[1]/tr[2]/td[7]/i[2]"
+    chk_denegar = "//td[@class='text-align-center'][contains(.,'{}')]/following-sibling::td[6]/i[1]"
+    chk_denegar2 = "//td[@class='text-align-center'][contains(.,dddd)]/following-sibling::td[6]/i[1]"
+    chk_autorizar = "//td[@class='text-align-center'][contains(.,'{}')]/following-sibling::td[6]/i[2]"    
+    chk_autorizar2 = "//td[@class='text-align-center'][contains(.,dddd)]/following-sibling::td[6]/i[2]"
+    btn_autorizar = "//span[contains(.,'AUTORIZAR')]"
+    btn_rechazar = "//span[contains(.,'RECHAZAR')]"
+    lbl_holaUsuario = "//span[contains(.,'Hola ')]"
+    lbl_nroAutorizacion = "//td[@class='text-align-center'][contains(.,'{}')]" 
+    lbl_sucursalOrg ="//div[@class='data'][contains(.,'{}')]"
+    lbl_sucursalDtn ="//div[@class='data'][contains(.,'{}')]"
+    lbl_nroControl = "//div[@class='data'][contains(.,'{}')]"
+    lbl_terminall = "//div[@class='data'][contains(.,'{}')]"
+    lbl_monto = "//div[@class='data'][contains(.,'{}')]"
+    rbt_supervisor = "//span[contains(.,'Supervisor')]"
+    rtb_gerente = "//span[contains(.,'Gerente')]"
