@@ -1,5 +1,7 @@
 FROM jenkins/ssh-agent:latest
 
+ENV JENKINS_AGENT_SSH_PUBKEY=
+
 # Configuracion de proxy
 ENV http_proxy=""
 ENV https_proxy=""
