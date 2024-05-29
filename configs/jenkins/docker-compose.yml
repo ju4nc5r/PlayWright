@@ -13,7 +13,7 @@ services:
     container_name: agent1
     networks:
       red_jenk:
-        ipv4_address: 172.28.0.2
+        ipv4_address: 172.28.0.11
     ports:
       - "4443:23"
   ssh-agent2:
@@ -21,30 +21,15 @@ services:
     container_name: agent2
     networks:
       red_jenk:
-        ipv4_address: 172.28.0.3
+        ipv4_address: 172.28.0.22
   ssh-agent3:
     build: .
     container_name: agent3
     networks:
       red_jenk:
-        ipv4_address: 172.28.0.4
+        ipv4_address: 172.28.0.33
     ports:
      - "4444:22"
-  ssh-agent4:
-    build: .
-    container_name: agent4
-    networks:
-      red_jenk:
-        ipv4_address: 172.28.0.5
-    ports: "4445:22"
-  ssh-agent5:
-    build: .
-    container_name: agent5
-    networks:
-      red_jenk:
-        ipv4_address: 172.28.0.6
-    ports:
-     - "4446:22"
 volumes:
   jenkins-home:
 
