@@ -11,6 +11,8 @@ services:
     volumes:
       - ${PWD}/allure-results:/app/allure-results
       - ${PWD}/allure-reports:/app/default-reports
+    networks:
+      - jenkins_red_jenk
 
   allure-ui:
     image: "frankescobar/allure-docker-service-ui"
@@ -19,3 +21,9 @@ services:
       ALLURE_DOCKER_PUBLIC_API_URL_PREFIX: ""
     ports:
       - "5252:5252"
+    networks:
+      - jenkins_red_jenk
+
+networks:
+  jenkins_red_jenk:
+    external: true
