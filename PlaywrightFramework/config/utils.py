@@ -13,7 +13,7 @@ class config():
             pass
 
         else:
-            dir_project = f'C:/Users/AST14698/Work/Framework/sap-crm-tests/PlaywrightFramework/projects/HBPF'
+            dir_project = f''
             folder = f'{dir_project}/allure-results'
 
             # Verificar si la carpeta existe
