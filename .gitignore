@@ -1,3 +1,4 @@
-/config/allure-reports
-/config/allure-results
+.gitignore
+/configs/allure-reports
+/configs/allure-results
 /PlaywrightFramework/venv

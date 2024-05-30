@@ -23,7 +23,7 @@ class stBrowser():
             context = self.browser.new_context(ignore_https_errors=True)
 
         else:
-            self.path_image = f'../{rec}/captures/'
+            self.path_image = f'../{rec}/captures'
             self.path_video = f'../{rec}/videos'
             context = self.browser.new_context(record_video_dir=self.path_video, ignore_https_errors=True)
         '''
